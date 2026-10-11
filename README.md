@@ -2,7 +2,7 @@
 
 基于淘宝公开数据，对 COACH 品牌商品进行全链路商业分析：数据采集 → 清洗入库 → 多维分析 → LSTM 销量预测 → 可视化大屏。
 
-**在线静态报告**：https://lulu1766.github.io/coach-analysis/
+**在线静态报告**：https://lulu1766.github.io/taobao-coach-product-analysis/
 
 ## 核心分析结论
 
@@ -31,7 +31,7 @@
 ├── data/processed/         # 清洗后的最终数据集（352 条商品）
 ├── logs/ outputs/          # 清洗与 EDA 过程留痕
 ├── charts/                 # 静态分析图表（matplotlib/seaborn）
-├── deploy/                 # GitHub Pages 在线报告源文件
+├── docs/                   # GitHub Pages 在线报告源文件（Pages 从该目录发布）
 ├── Coach商品分析报告.md     # 管理层商业分析报告
 ├── 数据分析口径说明.md      # 指标口径与数据边界说明
 └── coach_web/              # Django + LSTM 可视化系统
