@@ -1,0 +1,110 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}数据总览 - Coach 商品数据分析系统{% endblock %}
+{% block page_title %}数据总览{% endblock %}
+
+{% block content %}
+<!-- KPI -->
+<div class="kpi-row">
+  <div class="kpi k-gold">
+    <div class="label">样本商品总数</div>
+    <div class="value">352<span class="unit">款</span></div>
+    <div class="sub">覆盖包袋 / 香水 / 配饰等 10 大品类</div>
+  </div>
+  <div class="kpi">
+    <div class="label">累计销量</div>
+    <div class="value">14.5<span class="unit">万件</span></div>
+    <div class="sub">单品平均销量 <b>413</b> 件</div>
+  </div>
+  <div class="kpi k-blue">
+    <div class="label">价格中位数</div>
+    <div class="value">1,209<span class="unit">元</span></div>
+    <div class="sub">50% 商品集中在 700–1700 元</div>
+  </div>
+  <div class="kpi k-green">
+    <div class="label">TOP10 爆款销量集中度</div>
+    <div class="value">73.5<span class="unit">%</span></div>
+    <div class="sub">10.7 万件 / 零动销率 43.2%</div>
+  </div>
+</div>
+
+<!-- TOP10 柱线组合图 -->
+<div class="grid">
+  <div class="card">
+    <h3>TOP10 爆款商品：销量与定价双轴分析</h3>
+    <div id="top10" class="chart tall"></div>
+  </div>
+</div>
+
+<div class="grid g-21">
+  <div class="card">
+    <h3>品类销量结构</h3>
+    <div id="pie" class="chart"></div>
+  </div>
+  <div class="card">
+    <h3>渠道销量漏斗</h3>
+    <div id="funnel" class="chart"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const top10Data = {{ top10_data|safe }};
+  const top10 = echarts.init(document.getElementById('top10'));
+  top10.setOption({
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+    legend: { data: ['销量(件)', '售价(元)'], top: 0 },
+    grid: { left: 60, right: 60, top: 45, bottom: 90 },
+    xAxis: { type: 'category', data: top10Data.names, axisLabel: { interval: 0, rotate: 22, fontSize: 11 } },
+    yAxis: [
+      { type: 'value', name: '销量(件)', axisLabel: { formatter: v => v >= 10000 ? v/10000 + '万' : v } },
+      { type: 'value', name: '售价(元)', min: 0, splitLine: { show: false } }
+    ],
+    series: [
+      {
+        name: '销量(件)', type: 'bar', data: top10Data.sales, barWidth: '42%',
+        itemStyle: {
+          borderRadius: [6, 6, 0, 0],
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1,
+            [{ offset: 0, color: '#a3323f' }, { offset: 1, color: '#d8a05a' }])
+        },
+        label: { show: true, position: 'top', formatter: p => p.value >= 10000 ? (p.value/10000)+'万' : p.value }
+      },
+      {
+        name: '售价(元)', type: 'line', yAxisIndex: 1, data: top10Data.prices,
+        smooth: true, symbol: 'circle', symbolSize: 8,
+        lineStyle: { width: 3, color: '#3b6fb6' }, itemStyle: { color: '#3b6fb6' }
+      }
+    ]
+  });
+
+  const pie = echarts.init(document.getElementById('pie'));
+  pie.setOption({
+    tooltip: { trigger: 'item', formatter: '{b}<br/>销量：{c} 件 ({d}%)' },
+    legend: { orient: 'vertical', right: 10, top: 'center', textStyle: { fontSize: 12 } },
+    color: ['#7a1f2b', '#c5a880', '#3b6fb6', '#2f9e6e', '#e08a3c', '#8e6fb0', '#5aa9c2', '#b05a6f', '#9a9a9a', '#6b7c93'],
+    series: [{
+      type: 'pie', radius: ['42%', '70%'], center: ['38%', '52%'],
+      avoidLabelOverlap: true,
+      itemStyle: { borderRadius: 6, borderColor: '#fff', borderWidth: 2 },
+      label: { formatter: '{b}\n{d}%', fontSize: 11 },
+      data: {{ pie_data|safe }}
+    }]
+  });
+
+  const funnel = echarts.init(document.getElementById('funnel'));
+  funnel.setOption({
+    tooltip: { trigger: 'item', formatter: '{b}<br/>{c} 件' },
+    color: ['#7a1f2b', '#a3323f', '#c56b5a', '#d8a05a', '#c5a880', '#8a8a99', '#b9b7c8'],
+    series: [{
+      type: 'funnel', left: '8%', width: '84%', top: 20, bottom: 20,
+      minSize: '20%', gap: 3,
+      label: { formatter: '{b}  {c}', fontSize: 12 },
+      itemStyle: { borderColor: '#fff', borderWidth: 1 },
+      data: {{ funnel_data|safe }}
+    }]
+  });
+
+  window.addEventListener('resize', () => { top10.resize(); pie.resize(); funnel.resize(); });
+</script>
+{% endblock %}

@@ -1,0 +1,97 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}品类分析 - Coach 商品数据分析系统{% endblock %}
+{% block page_title %}品类分析{% endblock %}
+
+{% block content %}
+<div class="grid g-2">
+  <div class="card">
+    <h3>各品类销量与平均单品销量</h3>
+    <div id="catSales" class="chart tall"></div>
+  </div>
+  <div class="card">
+    <h3>品类商品款数占比</h3>
+    <div id="catPie" class="chart tall"></div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>小分类销量 TOP10（包袋内部结构）</h3>
+    <div id="subBar" class="chart"></div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>品类经营解读</h3>
+  <table>
+    <tr><th>品类</th><th>款数</th><th>总销量(件)</th><th>平均单品销量(件)</th><th>平均售价(元)</th></tr>
+    <tbody id="catTable"></tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const D = {
+    cats: {{ cats|safe }}, counts: {{ counts|safe }},
+    sales: {{ sales|safe }}, avg: {{ avg|safe }}, avgPrice: {{ avg_price|safe }}
+  };
+
+  const catSales = echarts.init(document.getElementById('catSales'));
+  catSales.setOption({
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+    legend: { data: ['总销量', '平均单品销量'], top: 0 },
+    grid: { left: 60, right: 55, top: 40, bottom: 60 },
+    xAxis: { type: 'category', data: D.cats, axisLabel: { rotate: 25, fontSize: 11 } },
+    yAxis: [
+      { type: 'value', name: '总销量', axisLabel: { formatter: v => v>=10000 ? v/10000+'万' : v } },
+      { type: 'value', name: '平均销量', splitLine: { show: false } }
+    ],
+    series: [
+      { name: '总销量', type: 'bar', data: D.sales, barWidth: '45%',
+        itemStyle: { borderRadius: [5,5,0,0],
+          color: new echarts.graphic.LinearGradient(0,0,0,1,
+            [{offset:0,color:'#7a1f2b'},{offset:1,color:'#c56b5a'}]) } },
+      { name: '平均单品销量', type: 'line', yAxisIndex: 1, data: D.avg,
+        smooth: true, lineStyle: { width: 3, color: '#c5a880' }, itemStyle: { color: '#c5a880' } }
+    ]
+  });
+
+  const catPie = echarts.init(document.getElementById('catPie'));
+  catPie.setOption({
+    tooltip: { trigger: 'item', formatter: '{b}: {c} 款 ({d}%)' },
+    color: ['#7a1f2b','#c5a880','#3b6fb6','#2f9e6e','#e08a3c','#8e6fb0','#5aa9c2','#b05a6f','#9a9a9a','#6b7c93','#d8a05a'],
+    legend: { orient: 'vertical', right: 0, top: 'middle', textStyle: { fontSize: 11 } },
+    series: [{
+      type: 'pie', radius: ['40%','68%'], center: ['36%','52%'],
+      itemStyle: { borderRadius: 6, borderColor: '#fff', borderWidth: 2 },
+      label: { formatter: '{d}%', fontSize: 11 },
+      data: D.cats.map((c, i) => ({ name: c, value: D.counts[i] }))
+    }]
+  });
+
+  const sub = { names: {{ sub_names|safe }}, sales: {{ sub_sales|safe }}, counts: {{ sub_counts|safe }} };
+  const subBar = echarts.init(document.getElementById('subBar'));
+  subBar.setOption({
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 80, right: 40, top: 20, bottom: 30 },
+    xAxis: { type: 'value', axisLabel: { formatter: v => v>=10000 ? v/10000+'万' : v } },
+    yAxis: { type: 'category', data: sub.names, inverse: true },
+    series: [{
+      type: 'bar', data: sub.sales, barWidth: '55%',
+      itemStyle: { borderRadius: [0,5,5,0],
+        color: new echarts.graphic.LinearGradient(0,0,1,0,
+          [{offset:0,color:'#c5a880'},{offset:1,color:'#7a1f2b'}]) },
+      label: { show: true, position: 'right' }
+    }]
+  });
+
+  // 表格
+  const tb = document.getElementById('catTable');
+  D.cats.forEach((c, i) => {
+    tb.innerHTML += `<tr><td><span class="tag tag-wine">${c}</span></td><td>${D.counts[i]}</td>
+      <td>${D.sales[i].toLocaleString()}</td><td><b>${D.avg[i]}</b></td><td>${D.avgPrice[i]}</td></tr>`;
+  });
+  window.addEventListener('resize', () => { catSales.resize(); catPie.resize(); subBar.resize(); });
+</script>
+{% endblock %}

@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Coach 商品数据分析系统{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'dashboard/css/dashboard.css' %}">
+  <script src="{% static 'dashboard/js/echarts.min.js' %}"></script>
+  {% block head_extra %}{% endblock %}
+</head>
+<body>
+<div class="layout">
+  <!-- 侧边栏 -->
+  <aside class="sidebar">
+    <div class="logo">
+      <span class="logo-mark">C</span>
+      <div class="logo-text">
+        <strong>COACH</strong>
+        <small>商品数据分析系统</small>
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="{% url 'index' %}" class="menu-item {% if active == 'index' %}on{% endif %}">
+        <span class="ico">⌂</span> 数据总览
+      </a>
+      <div class="menu-group">数据分析</div>
+      <a href="{% url 'price' %}" class="menu-item {% if active == 'price' %}on{% endif %}">
+        <span class="ico">¥</span> 价格分析
+      </a>
+      <a href="{% url 'category' %}" class="menu-item {% if active == 'category' %}on{% endif %}">
+        <span class="ico">▦</span> 品类分析
+      </a>
+      <a href="{% url 'channel' %}" class="menu-item {% if active == 'channel' %}on{% endif %}">
+        <span class="ico">⛁</span> 渠道分析
+      </a>
+      <a href="{% url 'wordcloud' %}" class="menu-item {% if active == 'wordcloud' %}on{% endif %}">
+        <span class="ico">☁</span> 商品词云
+      </a>
+      <div class="menu-group">智能预测</div>
+      <a href="{% url 'forecast' %}" class="menu-item {% if active == 'forecast' %}on{% endif %}">
+        <span class="ico">📈</span> LSTM 销量预测
+      </a>
+    </nav>
+    <div class="sidebar-footer">数据周期：2024.10 – 2027.03<br>数据源：淘宝公开商品数据</div>
+  </aside>
+
+  <!-- 主区域 -->
+  <div class="main">
+    <header class="topbar">
+      <div class="page-title">{% block page_title %}{% endblock %}</div>
+      <div class="user-box">
+        <span class="dot"></span> 数据分析师
+      </div>
+    </header>
+    <main class="content">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</div>
+{% block scripts %}{% endblock %}
+</body>
+</html>

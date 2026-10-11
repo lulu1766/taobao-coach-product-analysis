@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Coach 淘宝商品市场分析与经营策略建议</title>
+<style>
+  :root {
+    --c-primary: #6B4E3D;
+    --c-secondary: #C4A47C;
+    --c-accent: #8B6F47;
+    --c-bg: #F5EFE6;
+    --c-card: #FAF6F0;
+    --c-text: #2D2418;
+    --c-muted: #7A6855;
+    --c-border: #E0D5C3;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", sans-serif;
+    background: var(--c-bg);
+    color: var(--c-text);
+    line-height: 1.8;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 50px; background: white; }
+
+  /* 封面 */
+  .cover {
+    background: linear-gradient(135deg, #4A3520 0%, #6B4E3D 50%, #8B6F47 100%);
+    color: #F5EFE6;
+    padding: 100px 60px 80px;
+    text-align: center;
+  }
+  .cover h1 { font-size: 38px; font-weight: 700; margin-bottom: 18px; letter-spacing: 2px; }
+  .cover .subtitle { font-size: 17px; opacity: 0.85; margin-bottom: 50px; }
+  .cover .meta { font-size: 14px; opacity: 0.75; line-height: 2; }
+  .cover .brand-mark { font-size: 56px; letter-spacing: 8px; font-weight: 200; margin-bottom: 30px; opacity: 0.4; }
+
+  /* 章节 */
+  section { padding: 45px 0; border-bottom: 1px solid var(--c-border); }
+  section h2 {
+    color: var(--c-primary);
+    font-size: 24px;
+    font-weight: 700;
+    border-left: 5px solid var(--c-secondary);
+    padding-left: 18px;
+    margin-bottom: 22px;
+  }
+  section h3 {
+    color: var(--c-accent);
+    font-size: 17px;
+    margin: 22px 0 10px;
+    font-weight: 600;
+  }
+  p { margin-bottom: 10px; }
+  .lead { font-size: 16px; color: var(--c-text); margin-bottom: 20px; line-height: 1.9; }
+
+  /* 卡片指标 */
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin: 20px 0; }
+  .card {
+    background: var(--c-card);
+    border: 1px solid var(--c-border);
+    border-radius: 6px;
+    padding: 16px;
+    text-align: center;
+  }
+  .card .value { font-size: 22px; font-weight: 700; color: var(--c-primary); margin: 4px 0; }
+  .card .label { font-size: 12px; color: var(--c-muted); }
+
+  /* 商业洞察框 */
+  .insight {
+    background: #FFF9E6;
+    border-left: 4px solid #C4A47C;
+    padding: 14px 20px;
+    margin: 16px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .insight .title { color: var(--c-primary); font-weight: 700; font-size: 14px; margin-bottom: 6px; }
+
+  /* 警示框 */
+  .alert {
+    background: #FBEAEA;
+    border-left: 4px solid #B04040;
+    padding: 12px 18px;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+
+  /* 表格 */
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  th { background: var(--c-primary); color: white; padding: 10px 12px; text-align: left; font-weight: 600; }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--c-border); }
+  tr:nth-child(even) td { background: var(--c-card); }
+
+  /* 图表 */
+  figure { display: block; width: 100%; margin: 22px 0; text-align: center; box-sizing: border-box; }
+  figure img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid var(--c-border); border-radius: 4px; }
+  figcaption {
+    display: block;
+    font-size: 13px;
+    color: var(--c-muted);
+    margin-top: 8px;
+    padding: 8px 15px;
+    background: var(--c-card);
+    border-left: 3px solid var(--c-secondary);
+    text-align: left;
+  }
+
+  /* 建议卡片 */
+  .advice {
+    background: var(--c-card);
+    border-left: 4px solid var(--c-accent);
+    padding: 18px 22px;
+    margin: 16px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .advice h4 { color: var(--c-primary); font-size: 16px; margin-bottom: 8px; }
+  .advice .stage {
+    display: inline-block; padding: 2px 10px;
+    background: var(--c-secondary); color: white;
+    border-radius: 10px; font-size: 11px; margin-left: 8px;
+  }
+  .advice .row { display: flex; gap: 12px; margin: 4px 0; font-size: 14px; }
+  .advice .row .key { color: var(--c-accent); font-weight: 600; min-width: 80px; flex-shrink: 0; }
+
+  footer { padding: 35px 0; text-align: center; color: var(--c-muted); font-size: 13px; border-top: 2px solid var(--c-secondary); }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="brand-mark">COACH</div>
+  <h1>Coach 淘宝商品市场<br>分析与经营建议</h1>
+  <div class="subtitle">基于淘宝公开商品样本的市场观察</div>
+  <div class="meta">
+    数据采集：2026年9月22日<br>
+    样本规模：352 条商品信息
+  </div>
+</div>
+
+<div class="container">
+
+<!-- 一、执行摘要 -->
+<section id="summary">
+  <h2>一、核心发现速览</h2>
+  <p class="lead">本次分析覆盖淘宝平台 352 条 Coach 商品信息，归纳出 4 个对经营决策有直接参考价值的发现：</p>
+
+  <div class="insight">
+    <div class="title">发现 1：1000–2000 元是 Coach 的销量基本盘</div>
+    超过一半商品（53%）集中在这个价位，贡献了 55% 的总销量。这是消费者对 Coach 包袋最稳定的心理价位区间。
+  </div>
+
+  <div class="insight">
+    <div class="title">发现 2：官方渠道动销效率远超代购</div>
+    官方奥莱店仅 19 款商品，平均每款月销近 3000 件，是海外代购店（99 件/款）的 <strong>30 倍</strong>。少数官方爆款撑起了品牌在淘宝的销量基本盘。
+  </div>
+
+  <div class="insight">
+    <div class="title">发现 3：香水是被严重低估的引流品类</div>
+    17 款香水撬动了 4.2 万件销量（占总销量 29%），平均每款 2474 件，远高于包袋的 392 件。低价香水具备明显的引流属性。
+  </div>
+
+  <div class="insight">
+    <div class="title">发现 4：爆款有清晰共性 — CITY 系列与老花款</div>
+    TOP10 热门商品中，CITY 系列平均 1146 件/款、Laurel 流浪包 1267 件/款，远高于全样本均值 413 件。爆款几乎都带"老花+托特/波士顿+单肩/手提"组合标签。
+  </div>
+
+  <div class="alert">
+    <strong>特别关注：</strong>本次发现 2 款"蔻驰同名"香水与 1 款 13 元 Q 版小样挤入 TOP10，疑似蹭品牌流量的非官方商品，建议做品牌监测处理。
+  </div>
+</section>
+
+<!-- 二、市场概况 -->
+<section id="market">
+  <h2>二、市场整体概况</h2>
+
+  <div class="cards">
+    <div class="card"><div class="value">352</div><div class="label">样本商品数</div></div>
+    <div class="card"><div class="value">1,209 元</div><div class="label">价格中位数</div></div>
+    <div class="card"><div class="value">14.5 万件</div><div class="label">总销量</div></div>
+    <div class="card"><div class="value">2 万件</div><div class="label">单品最高销量</div></div>
+  </div>
+
+  <h3>价格分布</h3>
+  <figure>
+    <img src="01_price_distribution.png" alt="价格分布">
+    <figcaption>价格中位数 1209 元，50% 商品集中在 700–1700 元区间，价格结构相对聚焦。</figcaption>
+  </figure>
+
+  <h3>销量结构 — 典型长尾</h3>
+  <p>销量呈明显的"少数爆款撑场+多数长尾"分布：中位数仅 8 件，但平均 413 件、最高 2 万件。TOP10 商品贡献了 12.1 万件销量，占总销量 83%。<strong>这意味着品牌在淘宝的销量高度依赖少数爆款，腰部商品的动销效率有提升空间。</strong></p>
+</section>
+
+<!-- 三、爆款商品 -->
+<section id="top">
+  <h2>三、爆款商品画像</h2>
+  <p class="lead">销量 TOP10 商品反映 Coach 在淘宝的真实需求焦点：</p>
+
+  <figure>
+    <img src="04_top10_products.png" alt="TOP10 排行">
+    <figcaption>TOP10 销量排行，CITY 系列托特包与官方奥莱款占据多数席位。</figcaption>
+  </figure>
+
+  <h3>TOP10 商品列表</h3>
+  <table>
+    <tr><th>排名</th><th>商品（节选）</th><th>售价</th><th>销量</th><th>渠道</th></tr>
+    <tr><td>1</td><td>COACH 奥莱款 CITY15 托特包 CW032</td><td>1208</td><td>20000</td><td>官方奥莱</td></tr>
+    <tr><td>2</td><td>自营 蔻驰同名女士雾隐玫瑰淡香水</td><td>184</td><td>20000</td><td>平台自营</td></tr>
+    <tr><td>3</td><td>COACH 奥莱 CITY33 大号老花托特包</td><td>1510</td><td>10000</td><td>官方奥莱</td></tr>
+    <tr><td>4</td><td>自营 蔻驰同名 30ML 雾隐玫瑰淡香水</td><td>171</td><td>10000</td><td>平台自营</td></tr>
+    <tr><td>5</td><td>COACH 奥莱款 LAUREL 流浪包 CEY9</td><td>2394</td><td>10000</td><td>官方奥莱</td></tr>
+    <tr><td>6</td><td>COACH 奥莱 LAUREL 22 流浪包</td><td>1794</td><td>10000</td><td>奥莱店</td></tr>
+    <tr><td>7</td><td>COACH 奥莱 ROWAN 波士顿桶包</td><td>1310</td><td>9000</td><td>官方奥莱</td></tr>
+    <tr><td>8</td><td>COACH 香水 Q 版小样 纽约雾隐玫瑰</td><td>13</td><td>8000</td><td>未知</td></tr>
+    <tr><td>9</td><td>自营 COACH CITY 系列手提单肩包</td><td>1903</td><td>7000</td><td>平台自营</td></tr>
+    <tr><td>10</td><td>COACH CITY15 MOLLIE 25 托特包</td><td>1109</td><td>3000</td><td>海外代购</td></tr>
+  </table>
+
+  <div class="insight">
+    <div class="title">爆款共性画像</div>
+    <strong>价格</strong>：TOP10 平均 1146 元，落在主力价格带内<br>
+    <strong>品类</strong>：7 席包袋 + 3 席香水（香水全部为雾隐玫瑰系列）<br>
+    <strong>渠道</strong>：4 席官方奥莱 + 3 席平台自营<br>
+    <strong>款式</strong>：CITY、Laurel、Rowan 系列集中出现
+  </div>
+
+  <div class="alert">
+    <strong>蹭名款警示</strong>：第 2、4 名为"蔻驰同名"香水（非 Coach 官方），第 8 名为 13 元 Q 版小样（引流款），建议在品牌监测中重点跟踪。
+  </div>
+</section>
+
+<!-- 四、价格带 -->
+<section id="price">
+  <h2>四、价格带表现分析</h2>
+
+  <table>
+    <tr><th>价格带</th><th>商品占比</th><th>销量占比</th><th>平均单品销量</th></tr>
+    <tr><td>0–500 元</td><td>13.6%</td><td>30.0%</td><td>911 件</td></tr>
+    <tr><td>500–1000 元</td><td>23.0%</td><td>7.5%</td><td>134 件</td></tr>
+    <tr><td><strong>1000–2000 元</strong></td><td><strong>53.4%</strong></td><td><strong>55.1%</strong></td><td>427 件</td></tr>
+    <tr><td>2000–3000 元</td><td>8.8%</td><td>7.4%</td><td>346 件</td></tr>
+    <tr><td>3000+ 元</td><td>1.1%</td><td>0.0%</td><td>0 件</td></tr>
+  </table>
+
+  <figure>
+    <img src="02_priceband_count.png" alt="价格带商品数">
+    <figcaption>各价格带商品数量对比，1000–2000 元占绝对多数。</figcaption>
+  </figure>
+
+  <figure>
+    <img src="03_priceband_sales_share.png" alt="价格带销量占比">
+    <figcaption>各价格带销量贡献，1000–2000 元占 55%，0–500 元占 30%。</figcaption>
+  </figure>
+
+  <div class="insight">
+    <div class="title">关键商业洞察：低价带销量陷阱</div>
+    0–500 元看似"商品少但销量效率高"（13.6% 商品撬 30% 销量），但<strong>拆品类后发现该带销量 95% 以上来自 17 款香水（含部分蹭名款）</strong>。<br><br>
+    真正的包袋高效率带仍在 1000–2000 元。<strong>不能把香水的低价引流误读为"包袋应该卖 500 元以下"</strong>，这是后续定价策略必须分品类看待的关键差异。
+  </div>
+</section>
+
+<!-- 五、品类分析 -->
+<section id="category">
+  <h2>五、品类结构分析</h2>
+
+  <figure>
+    <img src="05_category_sales.png" alt="品类销量">
+    <figcaption>品类销量对比，包袋绝对领先，香水第二。</figcaption>
+  </figure>
+
+  <figure>
+    <img src="06_category_pie.png" alt="品类占比">
+    <figcaption>品类商品数量占比，包袋占 70.7%。</figcaption>
+  </figure>
+
+  <table>
+    <tr><th>品类</th><th>商品数</th><th>销量</th><th>平均销量</th><th>平均价格</th></tr>
+    <tr><td>包袋</td><td>249</td><td>97,489</td><td>392</td><td>1,436 元</td></tr>
+    <tr><td>香水</td><td>17</td><td>42,051</td><td>2,474</td><td>177 元</td></tr>
+    <tr><td>围巾丝巾</td><td>8</td><td>2,208</td><td>276</td><td>771 元</td></tr>
+    <tr><td>钱包卡包</td><td>14</td><td>1,221</td><td>87</td><td>457 元</td></tr>
+    <tr><td>手表</td><td>14</td><td>952</td><td>68</td><td>1,042 元</td></tr>
+    <tr><td>首饰</td><td>15</td><td>644</td><td>43</td><td>612 元</td></tr>
+    <tr><td>服饰 / 鞋靴 / 其他</td><td>26</td><td>539</td><td>21</td><td>1,243 元</td></tr>
+  </table>
+
+  <div class="insight">
+    <div class="title">品类商业洞察</div>
+    <strong>包袋</strong>是品牌基本盘，70% 商品 + 67% 销量；<strong>香水</strong>是被低估的引流品类，5% 商品撬动 29% 销量；服饰、鞋靴、首饰等长尾品类动销偏弱，建议评估是否值得保留独立运营。
+  </div>
+
+  <h3>爆款关键词 TOP10</h3>
+  <figure>
+    <img src="07_keywords.png" alt="关键词">
+    <figcaption>标题关键词 TOP10 销量贡献，单肩/手提/托特/CITY 是核心描述词。</figcaption>
+  </figure>
+
+  <div class="insight">
+    <div class="title">爆款共性词</div>
+    单肩、手提、斜挎、托特、CITY、老花、Laurel、Rowan —— TOP10 标题几乎都包含这些词。CITY 系列平均 1146 件/款，Laurel 流浪包 1267 件/款，是销量效率最高的款式系列。<strong>详情页若强化这些词可提升搜索匹配与转化。</strong>
+  </div>
+</section>
+
+<!-- 六、渠道 -->
+<section id="channel">
+  <h2>六、店铺渠道表现</h2>
+
+  <figure>
+    <img src="08_channel_sales.png" alt="渠道销量">
+    <figcaption>不同渠道销量对比，官方奥莱以 19 款撬动 38.3% 销量。</figcaption>
+  </figure>
+
+  <figure>
+    <img src="09_channel_avg.png" alt="渠道平均销量">
+    <figcaption>各渠道平均单品销量对比，官方奥莱 2937 件/款远超其他渠道。</figcaption>
+  </figure>
+
+  <table>
+    <tr><th>渠道</th><th>商品数</th><th>销量占比</th><th>平均单品销量</th><th>平均价格</th></tr>
+    <tr><td><strong>官方奥莱</strong></td><td>19</td><td>38.3%</td><td>2,937 件</td><td>1,493 元</td></tr>
+    <tr><td>平台自营</td><td>53</td><td>31.3%</td><td>858 件</td><td>1,205 元</td></tr>
+    <tr><td>未知</td><td>91</td><td>12.9%</td><td>206 件</td><td>1,072 元</td></tr>
+    <tr><td>海外代购</td><td>133</td><td>9.1%</td><td>99 件</td><td>1,246 元</td></tr>
+    <tr><td>奥莱店（非官方）</td><td>49</td><td>7.5%</td><td>223 件</td><td>1,595 元</td></tr>
+  </table>
+
+  <div class="insight">
+    <div class="title">渠道商业洞察</div>
+    <strong>官方奥莱</strong>：商品少（19 款）但动销极强（2937 件/款），是品牌官方在淘宝"清仓+走量"的核心阵地，TOP10 中占 4 席。<br>
+    <strong>平台自营</strong>：覆盖广（53 款）、销量稳（31%），承担"日常稳定走量"角色。<br>
+    <strong>海外代购</strong>：商品最多（133 款）但动销最弱（99 件/款），同质化严重，存在"长尾覆盖但低效"问题。
+  </div>
+</section>
+
+<!-- 七、经营建议 -->
+<section id="advice">
+  <h2>七、经营策略建议</h2>
+  <p class="lead">基于上述数据发现，提出 4 条可落地建议：</p>
+
+  <div class="advice">
+    <h4>建议 1：聚焦 1000–2000 元主力带，做强官方奥莱爆款矩阵 <span class="stage">短期可执行</span></h4>
+    <div class="row"><span class="key">数据依据</span><span>该价位占 53% 商品 / 55% 销量；官方奥莱动销 2937 件/款，TOP10 中 4 席</span></div>
+    <div class="row"><span class="key">行动</span><span>将 CW032、CV976、Laurel 流浪包等 5–8 款 TOP 爆款设为官方奥莱店常驻主推位</span></div>
+    <div class="row"><span class="key">监测</span><span>单品月销、详情页停留时长、转化率</span></div>
+  </div>
+
+  <div class="advice">
+    <h4>建议 2：详情页强化"老花 + 托特 + 通勤"组合卖点 <span class="stage">短期可执行</span></h4>
+    <div class="row"><span class="key">数据依据</span><span>CITY 系列 1146 件/款、Laurel 1267 件/款，远高于全样本均值 413</span></div>
+    <div class="row"><span class="key">行动</span><span>对零销量商品按标题含 CITY/Laurel/老花/托特关键词分组，重写卖点组合做 A/B 测试</span></div>
+    <div class="row"><span class="key">监测</span><span>搜索曝光、点击率、转化率</span></div>
+  </div>
+
+  <div class="advice">
+    <h4>建议 3：建立香水 → 包袋的连带销售模型 <span class="stage">中期优化</span></h4>
+    <div class="row"><span class="key">数据依据</span><span>17 款香水撬动 4.2 万件销量（29%），平均 2474 件/款，均价仅 177 元</span></div>
+    <div class="row"><span class="key">行动</span><span>在香水详情页设"香水 + 包袋"组合券或加购推荐；用香水订单用户做包袋再营销</span></div>
+    <div class="row"><span class="key">监测</span><span>香水订单的包袋连带率、客单价提升、新客获取成本</span></div>
+  </div>
+
+  <div class="advice">
+    <h4>建议 4：蹭名款品牌监测与举报 <span class="stage">短期可执行</span></h4>
+    <div class="row"><span class="key">数据依据</span><span>TOP10 第 2、4 名为"蔻驰同名"香水，销量各达 1 万件以上</span></div>
+    <div class="row"><span class="key">行动</span><span>建立周度蹭名款监测，向淘宝平台举报或申请品牌保护</span></div>
+    <div class="row"><span class="key">监测</span><span>蹭名款商品数、销量占比、举报处理时长</span></div>
+  </div>
+</section>
+
+<!-- 八、局限 -->
+<section id="limit">
+  <h2>八、说明与后续计划</h2>
+
+  <div class="insight">
+    <div class="title">样本说明</div>
+    本报告基于淘宝单次采集快照（2026-09-22，352 条商品），覆盖淘宝 Coach 搜索结果前若干页。结论定位为<strong>"样本市场观察"</strong>，不能直接推断品牌整体销售或市场份额。
+  </div>
+
+  <h3>后续建议补充</h3>
+  <ul>
+    <li><strong>扩大样本</strong>：当前 352 条不足指导书要求的 1500 条，建议继续翻页采集覆盖全品类</li>
+    <li><strong>二次采集</strong>：建议隔 2 周再做一次采集，对比爆款稳定性与新品动销</li>
+    <li><strong>补充评论数据</strong>：本次未采集评论文本，无法分析消费者关注点；建议补采评论数与文本以支撑消费者洞察模块</li>
+  </ul>
+
+  <h3>交付文件</h3>
+  <table>
+    <tr><th>文件</th><th>用途</th></tr>
+    <tr><td>Coach商品分析报告.html</td><td>本报告（浏览器打开）</td></tr>
+    <tr><td>Coach商品分析报告.md</td><td>报告正文（便于编辑）</td></tr>
+    <tr><td>analysis.py</td><td>可复现分析代码</td></tr>
+    <tr><td>charts/</td><td>9 张图表</td></tr>
+    <tr><td>数据分析口径说明.md</td><td>指标定义与计算方法</td></tr>
+  </table>
+</section>
+
+<footer>
+  Coach 淘宝商品市场分析与经营建议<br>
+  数据采集：2026-09-22 ｜ 样本规模：352 条
+</footer>
+
+</div>
+
+</body>
+</html>

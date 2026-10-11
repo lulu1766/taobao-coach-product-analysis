@@ -1,0 +1,163 @@
+/* ========== Coach 数据分析系统 全局样式 ========== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --wine: #7a1f2b;          /* Coach 酒红 */
+  --wine-dark: #5c1620;
+  --gold: #c5a880;          /* 金 */
+  --ink: #1b1a25;           /* 侧边深色 */
+  --ink-2: #252333;
+  --bg: #f4f5f8;
+  --card: #ffffff;
+  --text: #2b2b33;
+  --muted: #8a8a99;
+  --line: #ececf1;
+  --blue: #3b6fb6;
+  --green: #2f9e6e;
+  --orange: #e08a3c;
+}
+body {
+  font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+}
+.layout { display: flex; min-height: 100vh; }
+
+/* ---------- 侧边栏 ---------- */
+.sidebar {
+  width: 232px; flex-shrink: 0;
+  background: linear-gradient(180deg, var(--ink) 0%, #15141d 100%);
+  color: #cfcddb;
+  display: flex; flex-direction: column;
+  position: fixed; top: 0; bottom: 0; left: 0;
+  z-index: 100;
+}
+.logo {
+  display: flex; align-items: center; gap: 12px;
+  padding: 22px 20px;
+  border-bottom: 1px solid rgba(255,255,255,.07);
+}
+.logo-mark {
+  width: 40px; height: 40px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--wine), var(--wine-dark));
+  color: #fff; font-size: 22px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 12px rgba(122,31,43,.4);
+}
+.logo-text strong { display: block; color: #fff; font-size: 17px; letter-spacing: 2px; }
+.logo-text small { color: var(--gold); font-size: 11px; letter-spacing: 1px; }
+.menu { flex: 1; padding: 14px 12px; overflow-y: auto; }
+.menu-group {
+  color: #6e6c80; font-size: 11px; letter-spacing: 2px;
+  padding: 16px 12px 6px;
+}
+.menu-item {
+  display: flex; align-items: center; gap: 10px;
+  color: #b9b7c8; text-decoration: none;
+  padding: 11px 12px; border-radius: 8px;
+  margin-bottom: 3px; font-size: 14px;
+  transition: all .18s;
+}
+.menu-item .ico { width: 18px; text-align: center; font-size: 15px; }
+.menu-item:hover { background: rgba(255,255,255,.06); color: #fff; }
+.menu-item.on {
+  background: linear-gradient(90deg, var(--wine), var(--wine-dark));
+  color: #fff; font-weight: 600;
+  box-shadow: 0 4px 14px rgba(122,31,43,.35);
+}
+.sidebar-footer {
+  padding: 16px 20px; font-size: 11px; color: #6e6c80;
+  border-top: 1px solid rgba(255,255,255,.07); line-height: 1.8;
+}
+
+/* ---------- 主区域 ---------- */
+.main { flex: 1; margin-left: 232px; display: flex; flex-direction: column; }
+.topbar {
+  height: 62px; background: var(--card);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 28px;
+  box-shadow: 0 1px 4px rgba(20,20,40,.06);
+  position: sticky; top: 0; z-index: 50;
+}
+.page-title { font-size: 18px; font-weight: 700; color: var(--ink); }
+.user-box { color: var(--muted); font-size: 13px; display: flex; align-items: center; gap: 8px; }
+.user-box .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--green); }
+.content { padding: 24px 28px 40px; }
+
+/* ---------- KPI 卡片 ---------- */
+.kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-bottom: 20px; }
+.kpi {
+  background: var(--card); border-radius: 12px; padding: 20px 22px;
+  box-shadow: 0 2px 10px rgba(20,20,40,.05);
+  position: relative; overflow: hidden;
+}
+.kpi::after {
+  content: ""; position: absolute; right: -20px; top: -20px;
+  width: 80px; height: 80px; border-radius: 50%;
+  background: rgba(122,31,43,.05);
+}
+.kpi .label { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+.kpi .value { font-size: 30px; font-weight: 700; color: var(--ink); }
+.kpi .value .unit { font-size: 14px; color: var(--muted); font-weight: 400; margin-left: 4px; }
+.kpi .sub { font-size: 12px; color: var(--muted); margin-top: 8px; }
+.kpi .sub b { color: var(--wine); }
+.kpi.k-gold::after { background: rgba(197,168,128,.18); }
+.kpi.k-blue::after { background: rgba(59,111,182,.10); }
+.kpi.k-green::after { background: rgba(47,158,110,.10); }
+
+/* ---------- 图表卡片 ---------- */
+.grid { display: grid; gap: 18px; margin-bottom: 20px; }
+.g-2 { grid-template-columns: 1fr 1fr; }
+.g-3 { grid-template-columns: repeat(3, 1fr); }
+.g-21 { grid-template-columns: 2fr 1fr; }
+.card {
+  background: var(--card); border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(20,20,40,.05);
+  padding: 18px 20px;
+}
+.card h3 {
+  font-size: 15px; color: var(--ink); margin-bottom: 14px;
+  padding-left: 10px; border-left: 3px solid var(--wine);
+  line-height: 1.2;
+}
+.chart { width: 100%; height: 340px; }
+.chart.tall { height: 400px; }
+.chart.short { height: 300px; }
+
+/* ---------- 预测页 ---------- */
+.tabs { display: flex; gap: 10px; margin-bottom: 18px; }
+.tab {
+  padding: 9px 22px; border-radius: 20px; border: 1px solid var(--line);
+  background: var(--card); cursor: pointer; font-size: 14px; color: var(--muted);
+  transition: all .18s;
+}
+.tab:hover { border-color: var(--wine); color: var(--wine); }
+.tab.on { background: var(--wine); color: #fff; border-color: var(--wine); font-weight: 600; }
+.metric-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; margin-bottom: 20px; }
+.metric {
+  background: linear-gradient(135deg, #fff, #faf7f5);
+  border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px;
+}
+.metric .m-label { color: var(--muted); font-size: 13px; }
+.metric .m-value { font-size: 26px; font-weight: 700; color: var(--wine); margin-top: 8px; }
+.metric .m-value small { font-size: 13px; color: var(--muted); font-weight: 400; }
+.model-note {
+  background: #faf7f5; border: 1px dashed var(--gold); border-radius: 10px;
+  padding: 14px 18px; color: #6b5b48; font-size: 13px; line-height: 1.9;
+}
+.model-note b { color: var(--wine); }
+
+/* ---------- 表格 ---------- */
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; background: #fafafa; }
+tr:hover td { background: #fcf9f8; }
+.tag { display: inline-block; padding: 2px 10px; border-radius: 10px; font-size: 12px; }
+.tag-wine { background: rgba(122,31,43,.1); color: var(--wine); }
+.tag-gold { background: rgba(197,168,128,.25); color: #8a6d3b; }
+
+@media (max-width: 1200px) {
+  .kpi-row, .metric-row { grid-template-columns: repeat(2,1fr); }
+  .g-3 { grid-template-columns: 1fr; }
+  .g-2, .g-21 { grid-template-columns: 1fr; }
+}

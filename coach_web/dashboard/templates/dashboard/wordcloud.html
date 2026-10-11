@@ -1,0 +1,68 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}商品词云 - Coach 商品数据分析系统{% endblock %}
+{% block head_extra %}<script src="{% static 'dashboard/js/echarts-wordcloud.min.js' %}"></script>{% endblock %}
+{% block page_title %}商品标题词云分析{% endblock %}
+
+{% block content %}
+<div class="grid g-21">
+  <div class="card">
+    <h3>352 个商品标题高频关键词词云（jieba 分词）</h3>
+    <div id="cloud" class="chart tall"></div>
+  </div>
+  <div class="card">
+    <h3>关键词词频 TOP15</h3>
+    <div id="kwBar" class="chart tall"></div>
+  </div>
+</div>
+
+<div class="model-note">
+  <b>分析方法：</b>使用 jieba 对 352 条商品标题进行中文分词，同时正则提取英文型号词（如 CITY、TABBY），
+  剔除「COACH/蔻驰/女士/官方/正品/代购」等品牌词与营销停用词后统计词频。
+  <br><b>商业解读：</b>「单肩 / 手提 / 托特 / 斜挎」等包型词高频出现，反映需求集中在实用型通勤包款；
+  「CITY / 奥莱」印证爆款系列与折扣渠道是淘宝搜索心智的核心。
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const cloudData = {{ cloud_data|safe }};
+  const cloud = echarts.init(document.getElementById('cloud'));
+  cloud.setOption({
+    tooltip: { formatter: p => p.name + '：出现 ' + p.value + ' 次' },
+    series: [{
+      type: 'wordCloud',
+      shape: 'circle', left: 'center', top: 20, width: '95%', height: '88%',
+      sizeRange: [14, 64], rotationRange: [-30, 30], gridSize: 8,
+      drawOutOfBound: false,
+      textStyle: {
+        fontFamily: 'Microsoft YaHei', fontWeight: 'bold',
+        color: () => {
+          const palette = ['#7a1f2b','#a3323f','#c56b5a','#d8a05a','#c5a880',
+                           '#3b6fb6','#2f9e6e','#8e6fb0','#6b5b48','#b05a6f'];
+          return palette[Math.floor(Math.random() * palette.length)];
+        }
+      },
+      emphasis: { textStyle: { textShadowBlur: 8, textShadowColor: 'rgba(0,0,0,.25)' } },
+      data: cloudData
+    }]
+  });
+
+  const kw = { names: {{ names|safe }}, counts: {{ counts|safe }} };
+  const kwBar = echarts.init(document.getElementById('kwBar'));
+  kwBar.setOption({
+    tooltip: { trigger: 'axis' },
+    grid: { left: 70, right: 30, top: 15, bottom: 25 },
+    xAxis: { type: 'value' },
+    yAxis: { type: 'category', data: kw.names, inverse: false, axisLabel: { fontSize: 11 } },
+    series: [{
+      type: 'bar', data: kw.counts, barWidth: '58%',
+      itemStyle: { borderRadius: [0,5,5,0],
+        color: new echarts.graphic.LinearGradient(0,0,1,0,
+          [{offset:0,color:'#c5a880'},{offset:1,color:'#7a1f2b'}]) },
+      label: { show: true, position: 'right' }
+    }]
+  });
+  window.addEventListener('resize', () => { cloud.resize(); kwBar.resize(); });
+</script>
+{% endblock %}

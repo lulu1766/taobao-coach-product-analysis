@@ -1,0 +1,20 @@
+2026-09-21 19:58:13,280 [INFO] 开始接收：data\coach_taobao_raw_sample.csv
+2026-09-21 19:58:13,286 [INFO] 原始行数：3，原始列：['title', 'item_id', 'url', 'price_original', 'price_final', 'sales_monthly', 'comment_count', 'qa_count', 'shop_name', 'shop_type', 'attributes', 'crawl_time']
+2026-09-21 19:58:13,301 [WARNING] 行2 price_original=1.0 超出预期范围(10, 50000)（疑似引流款/异常标价），已保留待阶段3处理
+2026-09-21 19:58:13,301 [WARNING] 行2 price_final=1.0 超出预期范围(10, 50000)（疑似引流款/异常标价），已保留待阶段3处理
+2026-09-21 19:58:13,302 [WARNING] 券后价缺失 1 行，已用券前价填充并打标 price_final_source=from_original
+2026-09-21 19:58:13,309 [INFO] 规整 CSV 已输出：data\raw_normalized\coach_taobao_normalized_20260921_1958.csv（3 行 × 15 列）
+2026-09-21 19:58:13,309 [INFO] —— 字段质量摘要 ——
+2026-09-21 19:58:13,309 [INFO]   title: 缺失 0/3
+2026-09-21 19:58:13,309 [INFO]   item_id: 缺失 0/3
+2026-09-21 19:58:13,310 [INFO]   url: 缺失 0/3
+2026-09-21 19:58:13,310 [INFO]   price_original: 缺失 0/3
+2026-09-21 19:58:13,310 [INFO]   price_final: 缺失 0/3
+2026-09-21 19:58:13,310 [INFO]   sales_monthly: 缺失 0/3
+2026-09-21 19:58:13,310 [INFO]   comment_count: 缺失 1/3
+2026-09-21 19:58:13,310 [INFO]   qa_count: 缺失 1/3
+2026-09-21 19:58:13,311 [INFO]   shop_name: 缺失 0/3
+2026-09-21 19:58:13,311 [INFO]   shop_type: 缺失 0/3
+2026-09-21 19:58:13,311 [INFO]   attributes: 缺失 0/3
+2026-09-21 19:58:13,311 [INFO]   crawl_time: 缺失 0/3
+2026-09-21 19:58:13,311 [INFO] 完成。

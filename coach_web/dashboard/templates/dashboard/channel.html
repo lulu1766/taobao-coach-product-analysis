@@ -1,0 +1,108 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}渠道分析 - Coach 商品数据分析系统{% endblock %}
+{% block page_title %}渠道分析{% endblock %}
+
+{% block content %}
+<div class="grid g-2">
+  <div class="card">
+    <h3>各渠道销量贡献</h3>
+    <div id="chSales" class="chart"></div>
+  </div>
+  <div class="card">
+    <h3>各渠道平均单品销量（动销效率）</h3>
+    <div id="chAvg" class="chart"></div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>渠道 × 价格带商品款数结构</h3>
+    <div id="stack" class="chart"></div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>渠道经营解读</h3>
+  <table>
+    <tr><th>渠道</th><th>商品款数</th><th>总销量(件)</th><th>平均单品销量(件)</th><th>平均售价(元)</th><th>角色定位</th></tr>
+    <tbody id="chTable"></tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const D = {
+    names: {{ names|safe }}, counts: {{ counts|safe }}, sales: {{ sales|safe }},
+    avg: {{ avg|safe }}, avgPrice: {{ avg_price|safe }}
+  };
+  const roles = {
+    '官方奥莱': '爆款主阵地，以少胜多',
+    '平台自营': '第二增长极，香水引流',
+    '未知': '待识别第三方店铺',
+    '海外代购': '长尾分散，动销低',
+    '奥莱店': '折扣分销补充',
+    '专柜渠道': '少量高价标杆',
+    '官方旗舰': '品牌形象窗口'
+  };
+
+  const chSales = echarts.init(document.getElementById('chSales'));
+  chSales.setOption({
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 60, right: 20, top: 25, bottom: 55 },
+    xAxis: { type: 'category', data: D.names, axisLabel: { fontSize: 12 } },
+    yAxis: { type: 'value', axisLabel: { formatter: v => v>=10000 ? v/10000+'万' : v } },
+    series: [{
+      type: 'bar', data: D.sales, barWidth: '50%',
+      itemStyle: { borderRadius: [6,6,0,0],
+        color: new echarts.graphic.LinearGradient(0,0,0,1,
+          [{offset:0,color:'#7a1f2b'},{offset:1,color:'#d8a05a'}]) },
+      label: { show: true, position: 'top',
+        formatter: p => p.value>=10000 ? (p.value/10000).toFixed(1)+'万' : p.value }
+    }]
+  });
+
+  const chAvg = echarts.init(document.getElementById('chAvg'));
+  chAvg.setOption({
+    tooltip: { trigger: 'axis' },
+    grid: { left: 60, right: 20, top: 25, bottom: 55 },
+    xAxis: { type: 'category', data: D.names, axisLabel: { fontSize: 12 } },
+    yAxis: { type: 'value' },
+    series: [{
+      type: 'bar', data: D.avg, barWidth: '50%',
+      itemStyle: { borderRadius: [6,6,0,0],
+        color: new echarts.graphic.LinearGradient(0,0,0,1,
+          [{offset:0,color:'#2f9e6e'},{offset:1,color:'#a8dcc4'}]) },
+      label: { show: true, position: 'top' }
+    }],
+    graphic: [{
+      type: 'text', right: 20, top: 6, style: {
+        text: '官方奥莱单品效率约为大盘 7 倍', fill: '#7a1f2b', fontSize: 12, fontWeight: 600 }
+    }]
+  });
+
+  const stackData = {{ stack_data|safe }};
+  const colors = ['#7a1f2b','#c56b5a','#e08a3c','#c5a880','#3b6fb6'];
+  const stack = echarts.init(document.getElementById('stack'));
+  stack.setOption({
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+    legend: { data: stackData.bands, top: 0 },
+    grid: { left: 60, right: 20, top: 40, bottom: 40 },
+    color: colors,
+    xAxis: { type: 'category', data: stackData.names },
+    yAxis: { type: 'value', name: '款数' },
+    series: stackData.series.map(s => ({
+      name: s.name, type: 'bar', stack: 'total', data: s.data,
+      emphasis: { focus: 'series' }
+    }))
+  });
+
+  const tb = document.getElementById('chTable');
+  D.names.forEach((n, i) => {
+    tb.innerHTML += `<tr><td><span class="tag tag-gold">${n}</span></td><td>${D.counts[i]}</td>
+      <td>${D.sales[i].toLocaleString()}</td><td><b>${D.avg[i]}</b></td>
+      <td>${D.avgPrice[i]}</td><td>${roles[n] || '—'}</td></tr>`;
+  });
+  window.addEventListener('resize', () => { chSales.resize(); chAvg.resize(); stack.resize(); });
+</script>
+{% endblock %}

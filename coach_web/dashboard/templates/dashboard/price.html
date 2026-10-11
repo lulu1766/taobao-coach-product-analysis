@@ -1,0 +1,114 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}价格分析 - Coach 商品数据分析系统{% endblock %}
+{% block page_title %}价格分析{% endblock %}
+
+{% block content %}
+<div class="grid g-2">
+  <div class="card">
+    <h3>商品价格分布直方图（100 元一档）</h3>
+    <div id="hist" class="chart"></div>
+  </div>
+  <div class="card">
+    <h3>价格 - 销量散点关系（动销商品）</h3>
+    <div id="scatter" class="chart"></div>
+  </div>
+</div>
+
+<div class="grid g-2">
+  <div class="card">
+    <h3>各价格带商品数量</h3>
+    <div id="bandCnt" class="chart short"></div>
+  </div>
+  <div class="card">
+    <h3>各价格带销量贡献占比</h3>
+    <div id="bandShare" class="chart short"></div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>核心结论</h3>
+  <table>
+    <tr><th>价格带</th><th>商品款数</th><th>销量(件)</th><th>销量占比</th><th>商业含义</th></tr>
+    <tr><td>0–500 元</td><td id="t-c0"></td><td id="t-s0"></td><td id="t-r0"></td><td>以香水/配饰引流款为主，价格低但品牌价值贡献有限</td></tr>
+    <tr><td>500–1000 元</td><td id="t-c1"></td><td id="t-s1"></td><td id="t-r1"></td><td>入门款价格带，承担拉新职能</td></tr>
+    <tr><td><b>1000–2000 元</b></td><td id="t-c2"></td><td id="t-s2"></td><td id="t-r2"></td><td><span class="tag tag-wine">核心黄金价位</span> 款数与销量双高</td></tr>
+    <tr><td>2000–3000 元</td><td id="t-c3"></td><td id="t-s3"></td><td id="t-r3"></td><td>高端款，动销偏弱</td></tr>
+    <tr><td>3000 元以上</td><td id="t-c4"></td><td id="t-s4"></td><td id="t-r4"></td><td>淘宝渠道基本无市场</td></tr>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const histData = {{ hist_data|safe }};
+  const hist = echarts.init(document.getElementById('hist'));
+  hist.setOption({
+    tooltip: { trigger: 'axis' },
+    grid: { left: 50, right: 20, top: 25, bottom: 50 },
+    xAxis: { type: 'category', data: histData.labels, axisLabel: { rotate: 45, fontSize: 10 } },
+    yAxis: { type: 'value', name: '款数' },
+    series: [{
+      type: 'bar', data: histData.counts, barCategoryGap: '15%',
+      itemStyle: {
+        color: new echarts.graphic.LinearGradient(0,0,0,1,
+          [{offset:0,color:'#7a1f2b'},{offset:1,color:'#c5a880'}]),
+        borderRadius: [3,3,0,0]
+      }
+    }]
+  });
+
+  const scatter = echarts.init(document.getElementById('scatter'));
+  scatter.setOption({
+    tooltip: { formatter: p => '售价 ' + p.data[0] + ' 元<br/>销量 ' + p.data[1] + ' 件' },
+    grid: { left: 60, right: 20, top: 25, bottom: 45 },
+    xAxis: { type: 'value', name: '售价(元)' },
+    yAxis: { type: 'value', name: '销量(件)', axisLabel: { formatter: v => v>=10000 ? v/10000+'万' : v } },
+    series: [{
+      type: 'scatter', data: {{ scatter_data|safe }}, symbolSize: 9,
+      itemStyle: { color: '#7a1f2b', opacity: .55 }
+    }]
+  });
+
+  const bandData = {
+    bands: {{ bands|safe }}, counts: {{ counts|safe }},
+    sales: {{ sales|safe }}, share: {{ share|safe }}
+  };
+  const bandCnt = echarts.init(document.getElementById('bandCnt'));
+  bandCnt.setOption({
+    tooltip: { trigger: 'axis' },
+    grid: { left: 55, right: 20, top: 25, bottom: 35 },
+    xAxis: { type: 'category', data: bandData.bands },
+    yAxis: { type: 'value' },
+    series: [{
+      type: 'bar', data: bandData.counts, barWidth: '48%',
+      itemStyle: { color: '#3b6fb6', borderRadius: [5,5,0,0] },
+      label: { show: true, position: 'top' }
+    }]
+  });
+
+  const bandShare = echarts.init(document.getElementById('bandShare'));
+  bandShare.setOption({
+    tooltip: { trigger: 'axis', formatter: p => p[0].name + '<br/>销量占比 ' + p[0].value + '%' },
+    grid: { left: 55, right: 20, top: 25, bottom: 35 },
+    xAxis: { type: 'category', data: bandData.bands },
+    yAxis: { type: 'value', max: 60, axisLabel: { formatter: '{value}%' } },
+    series: [{
+      type: 'bar', data: bandData.share, barWidth: '48%',
+      itemStyle: {
+        color: new echarts.graphic.LinearGradient(0,0,0,1,
+          [{offset:0,color:'#2f9e6e'},{offset:1,color:'#9ed4bb'}]),
+        borderRadius: [5,5,0,0]
+      },
+      label: { show: true, position: 'top', formatter: '{c}%' }
+    }]
+  });
+
+  // 结论表填数
+  for (let i = 0; i < 5; i++) {
+    document.getElementById('t-c'+i).textContent = bandData.counts[i] + ' 款';
+    document.getElementById('t-s'+i).textContent = bandData.sales[i].toLocaleString();
+    document.getElementById('t-r'+i).textContent = bandData.share[i] + '%';
+  }
+  window.addEventListener('resize', () => { hist.resize(); scatter.resize(); bandCnt.resize(); bandShare.resize(); });
+</script>
+{% endblock %}

@@ -1,0 +1,27 @@
+{
+  "原始行数": 360,
+  "原始字段": [
+    "title",
+    "price_raw",
+    "sales_raw",
+    "location"
+  ],
+  "删除空标题": 0,
+  "非Coach噪声删除": 8,
+  "价格异常删除": 0,
+  "销量转换": 230,
+  "销量缺失填0": 122,
+  "重复删除": 0,
+  "去重依据": "title",
+  "最终行数": 352,
+  "最终字段": [
+    "title",
+    "price",
+    "sales_count",
+    "location",
+    "shop_name",
+    "url",
+    "source",
+    "crawl_time"
+  ]
+}

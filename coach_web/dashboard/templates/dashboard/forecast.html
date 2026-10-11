@@ -1,0 +1,138 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}LSTM 销量预测 - Coach 商品数据分析系统{% endblock %}
+{% block page_title %}LSTM 销量智能预测{% endblock %}
+
+{% block content %}
+<div class="tabs">
+  <div class="tab on" data-t="整体">整体销量</div>
+  <div class="tab" data-t="包袋">包袋</div>
+  <div class="tab" data-t="香水">香水</div>
+  <div class="tab" data-t="其他配饰">其他配饰</div>
+</div>
+
+<div class="metric-row" id="metrics"></div>
+
+<div class="grid">
+  <div class="card">
+    <h3 id="chartTitle">整体销量：历史 24 个月（实线）与 LSTM 预测未来 6 个月（虚线）</h3>
+    <div id="forecastChart" class="chart tall"></div>
+  </div>
+</div>
+
+<div class="grid g-2">
+  <div class="card">
+    <h3>未来 6 个月预测明细</h3>
+    <table>
+      <tr><th>月份</th><th>预测销量(件)</th><th>环比</th><th>经营节点</th></tr>
+      <tbody id="predTable"></tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h3>模型架构说明</h3>
+    <div class="model-note" style="border-style:solid; line-height:2.1">
+      <b>框架：</b>TensorFlow 2.21 + Keras 3 构建 Sequential 网络<br>
+      <b>结构：</b>Input(6×1) → LSTM(64) → Dropout(0.2) → LSTM(32) → Dropout(0.2) → Dense(16) → Dense(1)<br>
+      <b>训练：</b>6 个月滑动窗口单变量预测，4 条序列联合训练，Adam / MSE / 150 epochs + EarlyStopping<br>
+      <b>验证：</b>Walk-forward，前 18 月训练 → 后 6 月回测，计算 MAE / MAPE / RMSE<br>
+      <b>归一化：</b>MinMaxScaler，模型与参数已持久化为 <b>lstm_sales.keras</b> / scaler.json
+    </div>
+  </div>
+</div>
+
+<div class="model-note">
+  <b>数据口径说明：</b>原始数据为 2026-09 单次采集的截面快照，月度序列依据各对象近 12 个月
+  <b>真实累计销量</b>（整体 145,549 件），结合电商行业季节因子（双11×2.6、618×1.55、春节×0.55）拆解为
+  2024-10 至 2026-09 共 24 个数据点；接入真实月度销售流水后，模型代码可直接复用重新训练。
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const seriesData = {{ series_data|safe }};
+  const metricData = {{ metric_data|safe }};
+  const NODES = {'10':'国庆/秋冬上新','11':'双11 大促','12':'双12/圣诞礼赠',
+                 '01':'年货节','02':'春节淡季','03':'38 节预热'};
+
+  const chart = echarts.init(document.getElementById('forecastChart'));
+
+  function render(target) {
+    const d = seriesData[target];
+    document.getElementById('chartTitle').textContent =
+      `${target}销量：历史 24 个月（实线）与 LSTM 预测未来 6 个月（虚线）`;
+
+    // 指标卡
+    const m = metricData.find(x => x.target === target);
+    document.getElementById('metrics').innerHTML = `
+      <div class="metric"><div class="m-label">MAE 平均绝对误差</div>
+        <div class="m-value">${m.mae.toLocaleString()}<small> 件</small></div></div>
+      <div class="metric"><div class="m-label">MAPE 平均绝对百分比误差</div>
+        <div class="m-value">${m.mape}<small> %</small></div></div>
+      <div class="metric"><div class="m-label">RMSE 均方根误差</div>
+        <div class="m-value">${m.rmse.toLocaleString()}<small> 件</small></div></div>
+      <div class="metric"><div class="m-label">训练样本数 / 轮次</div>
+        <div class="m-value">${m.samples}<small> 样本 · ${m.epochs} 轮</small></div></div>`;
+
+    // 预测线从最后一个历史点起步，保证视觉连续
+    const allMonths = d.hist_months.concat(d.pred_months);
+    const histLine = d.hist_sales.concat(new Array(d.pred_months.length).fill(null));
+    const predLine = new Array(d.hist_months.length - 1).fill(null)
+      .concat([d.hist_sales[d.hist_sales.length - 1]]).concat(d.pred_sales);
+
+    chart.setOption({
+      tooltip: { trigger: 'axis' },
+      legend: { data: ['历史实际销量', 'LSTM 预测销量'], top: 0 },
+      grid: { left: 65, right: 30, top: 45, bottom: 55 },
+      xAxis: { type: 'category', data: allMonths, axisLabel: { rotate: 35, fontSize: 11 } },
+      yAxis: { type: 'value', name: '月销量(件)',
+        axisLabel: { formatter: v => v >= 10000 ? v/10000 + '万' : v } },
+      series: [
+        {
+          name: '历史实际销量', type: 'line', data: histLine,
+          smooth: true, symbol: 'circle', symbolSize: 6,
+          lineStyle: { width: 3, color: '#7a1f2b' }, itemStyle: { color: '#7a1f2b' },
+          areaStyle: { color: new echarts.graphic.LinearGradient(0,0,0,1,
+            [{offset:0,color:'rgba(122,31,43,.22)'},{offset:1,color:'rgba(122,31,43,.01)'}]) },
+          markArea: {
+            itemStyle: { color: 'rgba(197,168,128,.12)' },
+            data: [[{ name: '预测区间', xAxis: d.hist_months[d.hist_months.length-1] },
+                    { xAxis: d.pred_months[d.pred_months.length-1] }]]
+          }
+        },
+        {
+          name: 'LSTM 预测销量', type: 'line', data: predLine,
+          smooth: true, symbol: 'diamond', symbolSize: 9,
+          lineStyle: { width: 3, color: '#3b6fb6', type: 'dashed' },
+          itemStyle: { color: '#3b6fb6' },
+          label: { show: true, position: 'top', fontSize: 10,
+            formatter: p => p.value >= 10000 ? (p.value/10000).toFixed(1)+'万' : p.value }
+        }
+      ]
+    }, true);
+
+    // 明细表
+    let prev = d.hist_sales[d.hist_sales.length - 1];
+    const tb = document.getElementById('predTable');
+    tb.innerHTML = '';
+    d.pred_months.forEach((mo, i) => {
+      const v = d.pred_sales[i];
+      const chg = ((v - prev) / prev * 100);
+      const color = chg >= 0 ? '#2f9e6e' : '#c0392b';
+      const tag = chg >= 0 ? '+' : '';
+      tb.innerHTML += `<tr><td>${mo}</td><td><b>${v.toLocaleString()}</b></td>
+        <td style="color:${color}">${tag}${chg.toFixed(1)}%</td>
+        <td>${NODES[mo.slice(5)] || '—'}</td></tr>`;
+      prev = v;
+    });
+  }
+
+  render('整体');
+  document.querySelectorAll('.tab').forEach(el => {
+    el.onclick = () => {
+      document.querySelectorAll('.tab').forEach(x => x.classList.remove('on'));
+      el.classList.add('on');
+      render(el.dataset.t);
+    };
+  });
+  window.addEventListener('resize', () => chart.resize());
+</script>
+{% endblock %}
