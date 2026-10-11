@@ -54,18 +54,49 @@
 
 ## 本地运行
 
-```bash
-# 1. 环境要求：Python 3.13+、MySQL 8.0
-pip install django pymysql tensorflow pandas numpy jieba
+### 方式一：一键运行（推荐，无需安装 MySQL 和 TensorFlow）
 
-# 2. 修改 coach_web/config/settings.py 中的数据库密码
-# 3. 建库并初始化（导入数据 + 训练 LSTM + 生成预测）
+项目已内置数据库快照 fixture（352 条商品 + 96 条月度序列 + LSTM 预测结果与评估指标），
+预测为预计算结果，因此运行时只需 Django + jieba，自动使用免安装的 SQLite。
+
+**Windows**：双击 `coach_web/run.bat`
+
+**macOS / Linux**：
+
+```bash
+cd coach_web
+bash run.sh        # 自动建虚拟环境、装依赖、初始化并启动
+```
+
+启动后访问 http://127.0.0.1:8000/
+
+手动方式（效果相同）：
+
+```bash
+cd coach_web
+python -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py loaddata coach_data
+python manage.py runserver
+```
+
+### 方式二：完整重建（MySQL + 重新训练 LSTM，复现数据与建模全过程）
+
+```bash
+# 环境要求：Python 3.10+、MySQL 8.0
+pip install -r requirements-full.txt
 mysql -u root -p -e "CREATE DATABASE coach_db DEFAULT CHARACTER SET utf8mb4"
+
+# 通过环境变量切换 MySQL（密码不写入代码）
+export USE_MYSQL=1 DB_PASSWORD=你的密码     # Windows PowerShell: $env:USE_MYSQL='1'; $env:DB_PASSWORD='你的密码'
 cd coach_web
 python manage.py migrate
-python manage.py init_data
-
-# 4. 启动
-python manage.py runserver 8000
-# 浏览器访问 http://127.0.0.1:8000/
+python manage.py init_data        # 导入CSV → 构造月度序列 → 训练LSTM → 预测入库（约数分钟）
+python manage.py runserver
 ```
+
+> 说明：LSTM 预测依赖月度历史序列。原始公开数据为单次采集的截面快照，
+> 月度序列由真实累计销量结合电商季节因子构造用于模型验证，详见 `数据分析口径说明.md`。
+> `dashboard/ml_models/lstm_sales.keras` 为已训练好的模型文件。
+

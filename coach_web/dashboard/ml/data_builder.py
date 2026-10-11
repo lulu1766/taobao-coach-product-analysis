@@ -10,11 +10,19 @@
 """
 import datetime as dt
 import math
+import os
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-CSV_PATH = r'c:\Users\罗茜\Desktop\coach商品分析项目\data\processed\coach_products_clean_with_category.csv'
+# 数据集路径：相对本文件定位（coach_web/dashboard/ml/ → 项目根/data/processed/），
+# 也可通过环境变量 COACH_CSV 覆盖
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+CSV_PATH = Path(os.environ.get(
+    'COACH_CSV',
+    PROJECT_ROOT / 'data' / 'processed' / 'coach_products_clean_with_category.csv'
+))
 
 # 序列起止月份
 START_MONTH = dt.date(2024, 10, 1)

@@ -3,6 +3,11 @@ __pycache__/
 *.pyc
 *.pyo
 
+# 虚拟环境
+venv/
+.venv/
+env/
+
 # Django
 *.sqlite3
 db.sqlite3

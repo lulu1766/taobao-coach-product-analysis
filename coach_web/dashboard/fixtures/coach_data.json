@@ -1,0 +1,7166 @@
+[
+{
+ "model": "dashboard.product",
+ "pk": 353,
+ "fields": {
+  "pid": "C041",
+  "name": "COACH/蔻驰官方 奥莱款女士CITY 15单肩斜挎手提包托特包CW032",
+  "price": 1208,
+  "sales": 20000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 354,
+ "fields": {
+  "pid": "C103",
+  "name": "自营淘客专享 刘宇COACH/蔻驰同名女士雾隐玫瑰淡香水30ML",
+  "price": 184,
+  "sales": 20000,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "女士香水",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 355,
+ "fields": {
+  "pid": "C001",
+  "name": "COACH/蔻驰官方 奥莱女士CITY33通勤大号老花单肩手提托特包CV976",
+  "price": 1510,
+  "sales": 10000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 356,
+ "fields": {
+  "pid": "C006",
+  "name": "自营刘宇国际加补 蔻驰同名女士30ML淡香水雾隐玫瑰",
+  "price": 171,
+  "sales": 10000,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "女士香水",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 357,
+ "fields": {
+  "pid": "C072",
+  "name": "COACH/蔻驰官方 奥莱款LAUREL中号女士单肩斜挎手提包流浪包CEY95",
+  "price": 2394,
+  "sales": 10000,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 358,
+ "fields": {
+  "pid": "C115",
+  "name": "COACH/蔻驰奥莱女士老花LAUREL 22单肩手提包流浪包CFP26",
+  "price": 1794,
+  "sales": 10000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "广东",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 359,
+ "fields": {
+  "pid": "C002",
+  "name": "COACH/蔻驰官方 奥莱女ROWAN老花波士顿桶包单肩斜挎手提包CW329",
+  "price": 1310,
+  "sales": 9000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 360,
+ "fields": {
+  "pid": "C149",
+  "name": "COACH蔻驰寇驰香水Q版小样纽约雾隐玫瑰野白LOVE男女士淡浓花馥蕊",
+  "price": 13,
+  "sales": 8000,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水小样",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 361,
+ "fields": {
+  "pid": "C096",
+  "name": "自营COACH/蔻驰女士经典标志CITY系列手提单肩斜挎女包小包",
+  "price": 1903,
+  "sales": 7000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 362,
+ "fields": {
+  "pid": "C044",
+  "name": "COACH/蔻驰女CITY15 33单肩手提MOLLIE 25托特包",
+  "price": 1109,
+  "sales": 3000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 363,
+ "fields": {
+  "pid": "C070",
+  "name": "COACH/蔻驰官方 奥莱款NOLITA 19女单肩手提包腋下包麻将包CW426",
+  "price": 895,
+  "sales": 3000,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 364,
+ "fields": {
+  "pid": "C051",
+  "name": "自营COACH/蔻驰女包MOLLIE TOTE 25托特包手提包单肩包斜挎包",
+  "price": 1373,
+  "sales": 2000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 365,
+ "fields": {
+  "pid": "C104",
+  "name": "自营COACH/蔻驰奥莱款女士CITY 15单肩斜挎手提包托特包CW032",
+  "price": 1114,
+  "sales": 2000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 366,
+ "fields": {
+  "pid": "C091",
+  "name": "COACH/蔻驰STATION女士手提包单肩斜挎包CET31 IMXAQ",
+  "price": 1703,
+  "sales": 1000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 367,
+ "fields": {
+  "pid": "C151",
+  "name": "COACH/蔻驰官方 奥莱款ROWAN女士单肩斜挎手提包波士顿桶包CDQ36",
+  "price": 1303,
+  "sales": 1000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 368,
+ "fields": {
+  "pid": "C153",
+  "name": "COACH蔻驰女士专柜款80%莱赛尔+20%羊毛保暖围巾丝巾29CO100562",
+  "price": 651,
+  "sales": 1000,
+  "price_band": "500-1000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 369,
+ "fields": {
+  "pid": "C161",
+  "name": "COACH/蔻驰PLAZA 麻将包专柜款女包粉色单肩手提",
+  "price": 884,
+  "sales": 1000,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "河南",
+  "channel": "专柜渠道",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 370,
+ "fields": {
+  "pid": "C182",
+  "name": "COACH/蔻驰纽约女士淡香水礼盒套装30ML+4.5ML",
+  "price": 251,
+  "sales": 1000,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水礼盒",
+  "location": "上海",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 371,
+ "fields": {
+  "pid": "C225",
+  "name": "COACH/蔻驰女士托特包购物袋BROOKLYN绒面腋下单肩包",
+  "price": 1453,
+  "sales": 1000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 372,
+ "fields": {
+  "pid": "C227",
+  "name": "COACH/蔻驰官方 奥莱款STATION女士单肩斜挎手提包托特包CET29",
+  "price": 1692,
+  "sales": 1000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 373,
+ "fields": {
+  "pid": "C281",
+  "name": "自营COACH/蔻驰经典老花女士托特包大容量单肩手提包妈妈包",
+  "price": 1306,
+  "sales": 1000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 374,
+ "fields": {
+  "pid": "C288",
+  "name": "COACH/蔻驰女包2026CITY 26托特包TOTE单肩包",
+  "price": 1703,
+  "sales": 1000,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 375,
+ "fields": {
+  "pid": "C291",
+  "name": "COACH蔻驰羊毛羊绒围巾女秋冬经典双面大C百搭长款披肩现货CU807",
+  "price": 549,
+  "sales": 1000,
+  "price_band": "500-1000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 376,
+ "fields": {
+  "pid": "C292",
+  "name": "COACH/蔻驰Q版香水小样两件套送礼送朋友",
+  "price": 91,
+  "sales": 1000,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水小样",
+  "location": "上海",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 377,
+ "fields": {
+  "pid": "C320",
+  "name": "COACH/蔻驰CORNER ZIP16手拿包织物格纹樱桃手挽钱包",
+  "price": 289,
+  "sales": 1000,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 378,
+ "fields": {
+  "pid": "C325",
+  "name": "小兔兔美代COACH蔻驰托特包CITY 33/23购物袋女包5696 CV976",
+  "price": 899,
+  "sales": 1000,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 379,
+ "fields": {
+  "pid": "C067",
+  "name": "COACH/蔻驰女士CITY TOTE老花通勤单肩中号大容量手提托特包CV976",
+  "price": 1331,
+  "sales": 700,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 380,
+ "fields": {
+  "pid": "C157",
+  "name": "COACH/蔻驰女MOLLIE 25单肩斜挎手提托特包CV965",
+  "price": 1719,
+  "sales": 700,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 381,
+ "fields": {
+  "pid": "C180",
+  "name": "COACH/蔻驰CITY33/23 FIONA 24经典奥莱老花托特女包 CV976",
+  "price": 979,
+  "sales": 700,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 382,
+ "fields": {
+  "pid": "C058",
+  "name": "COACH/蔻驰官方 奥莱款CITY 26女士中号老花单肩手提托特包CDX82",
+  "price": 1408,
+  "sales": 600,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 383,
+ "fields": {
+  "pid": "C234",
+  "name": "COACH蔻驰水漾之花女士浓香水30/90ML花馥蕊马车同名",
+  "price": 170,
+  "sales": 600,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "女士香水",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 384,
+ "fields": {
+  "pid": "C043",
+  "name": "COACH/蔻驰官方 奥莱款EMILY 女士老花单肩斜挎手提包半月包CDX17",
+  "price": 1394,
+  "sales": 500,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "月牙包",
+  "location": "香港",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 385,
+ "fields": {
+  "pid": "C142",
+  "name": "自营COACH/蔻驰CITY33托特包女包老花单肩手提包礼物送女友",
+  "price": 1443,
+  "sales": 500,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 386,
+ "fields": {
+  "pid": "C213",
+  "name": "COACH/蔻驰女士经典MOLLIE 25单肩手提托特包送女友",
+  "price": 1399,
+  "sales": 500,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 387,
+ "fields": {
+  "pid": "C313",
+  "name": "COACH/蔻驰男士经典同名香水40/100ML木质调节日礼物",
+  "price": 163,
+  "sales": 500,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "男士香水",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 388,
+ "fields": {
+  "pid": "C053",
+  "name": "COACH/蔻驰托特包单肩手提女士挎包官方品款女老花腋下通勤CW032",
+  "price": 1064,
+  "sales": 400,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 389,
+ "fields": {
+  "pid": "C131",
+  "name": "COACH/蔻驰女2026年单肩斜挎手提波士顿包CW330",
+  "price": 1419,
+  "sales": 400,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 390,
+ "fields": {
+  "pid": "C266",
+  "name": "香港直邮 COACH蔻驰经典纽约水漾之花女士香水30 50 90ML 简装",
+  "price": 269,
+  "sales": 400,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "女士香水",
+  "location": "福建",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 391,
+ "fields": {
+  "pid": "C273",
+  "name": "COACH/蔻驰官方 奥莱款FAYE粉色女士单肩手提包斜挎包云朵包CEP40",
+  "price": 1594,
+  "sales": 400,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 392,
+ "fields": {
+  "pid": "C338",
+  "name": "COACH/蔻驰纽约女士淡香水生日中秋节礼物送老师官方旗舰礼盒",
+  "price": 295,
+  "sales": 400,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水礼盒",
+  "location": "北京",
+  "channel": "官方旗舰",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 393,
+ "fields": {
+  "pid": "C015",
+  "name": "COACH/蔻驰专柜PLAZA女士老花单肩手提包麻将包CCC42",
+  "price": 678,
+  "sales": 300,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 394,
+ "fields": {
+  "pid": "C057",
+  "name": "COACH蔻驰女士BROOKLYN28专柜HOBO通勤百搭半月包单肩手提包CU068",
+  "price": 1531,
+  "sales": 300,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "月牙包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 395,
+ "fields": {
+  "pid": "C073",
+  "name": "COACH/蔻驰官方奥莱款 STATION女士单肩斜挎手提包托特包CET31",
+  "price": 1708,
+  "sales": 300,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 396,
+ "fields": {
+  "pid": "C105",
+  "name": "自营COACH/蔻驰女士 盒子包手提包单肩包斜挎包",
+  "price": 1307,
+  "sales": 300,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 397,
+ "fields": {
+  "pid": "C251",
+  "name": "自营COACH/蔻驰水桶包女包ROWAN子母包单肩手提包礼物送女友",
+  "price": 1799,
+  "sales": 300,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 398,
+ "fields": {
+  "pid": "C290",
+  "name": "COACH托特包蔻驰购物袋老花女包单肩手提包CITY TOTE CV976 CBT18",
+  "price": 863,
+  "sales": 300,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 399,
+ "fields": {
+  "pid": "C293",
+  "name": "COACH蔻驰拉链托特包FIONA24 ZIP TOTE妈咪包CBT18",
+  "price": 939,
+  "sales": 300,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 400,
+ "fields": {
+  "pid": "C342",
+  "name": "自营COACH/蔻驰女士 ROWAN系列 抽绳水桶包单肩包手提斜挎包",
+  "price": 1905,
+  "sales": 300,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 401,
+ "fields": {
+  "pid": "C003",
+  "name": "COACH/蔻驰波士顿包 单肩斜挎手提包 ROWAN迷你女士包",
+  "price": 1203,
+  "sales": 200,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 402,
+ "fields": {
+  "pid": "C004",
+  "name": "自营COACH/蔻驰CITY 33托特包单肩手提大容量日常休闲女士包",
+  "price": 1432,
+  "sales": 200,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 403,
+ "fields": {
+  "pid": "C019",
+  "name": "COACH/蔻驰女士MINI CITY托特包大容量包包单肩斜挎手提CW032",
+  "price": 1184,
+  "sales": 200,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 404,
+ "fields": {
+  "pid": "C048",
+  "name": "COACH/蔻驰托特包流浪包单肩斜挎手提包 大容量女包",
+  "price": 2103,
+  "sales": 200,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 405,
+ "fields": {
+  "pid": "C080",
+  "name": "COACH/蔻驰女包ASHTON 20单肩斜挎手提腋下包",
+  "price": 1119,
+  "sales": 200,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "河南",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 406,
+ "fields": {
+  "pid": "C092",
+  "name": "仔仔美国代购COACH/蔻驰帆布表带带钻款BOYFRIEND女士手表",
+  "price": 793,
+  "sales": 200,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 407,
+ "fields": {
+  "pid": "C177",
+  "name": "自营COACH/蔻驰手表女 SAMMY浴缸时尚椭圆老花盘钢带石英女表",
+  "price": 1253,
+  "sales": 200,
+  "price_band": "1000-2000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 408,
+ "fields": {
+  "pid": "C181",
+  "name": "自营COACH/蔻驰女士百搭时尚气质单肩斜挎手提包",
+  "price": 978,
+  "sales": 200,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 409,
+ "fields": {
+  "pid": "C299",
+  "name": "现货美国直购COACH蔻驰休闲简约磁扣手提单肩托特购物包CITY33",
+  "price": 1274,
+  "sales": 200,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "上海",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 410,
+ "fields": {
+  "pid": "C322",
+  "name": "拼邮美国直购COACH蔻驰女士时尚项链吊坠耳钉手链首饰",
+  "price": 576,
+  "sales": 200,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "手链",
+  "location": "上海",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 411,
+ "fields": {
+  "pid": "C324",
+  "name": "COACH/蔻驰KLARE风琴包链条轻奢通勤单肩斜挎腋下包",
+  "price": 1122,
+  "sales": 200,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 412,
+ "fields": {
+  "pid": "C333",
+  "name": "COACH/蔻驰女士腰带休闲商务牛皮C针扣腰带",
+  "price": 628,
+  "sales": 200,
+  "price_band": "500-1000",
+  "category": "腰带",
+  "sub_category": "女士腰带",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 413,
+ "fields": {
+  "pid": "C016",
+  "name": "自营COACH/蔻驰女包经典老花通勤托特包大容量单肩手提包",
+  "price": 1481,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 414,
+ "fields": {
+  "pid": "C055",
+  "name": "香港直邮COACH蔻驰BRIDGET 35奥莱款皮质斜挎包手提包单肩包CDB04",
+  "price": 1863,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 415,
+ "fields": {
+  "pid": "C069",
+  "name": "COACH蔻驰EVELYN女士绗缝细节皮革时尚百搭垃圾袋单肩手提包CDR00",
+  "price": 2903,
+  "sales": 100,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 416,
+ "fields": {
+  "pid": "C082",
+  "name": "COACH/蔻驰CITY 33经典老花托特包大容量通勤手提包CV976",
+  "price": 1359,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 417,
+ "fields": {
+  "pid": "C100",
+  "name": "COACH/蔻驰女NOLITA19单肩手提腋下麻将包CW426",
+  "price": 787,
+  "sales": 100,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 418,
+ "fields": {
+  "pid": "C120",
+  "name": "COACH蔻驰 COURT 27双C老花拉链开合女包日常通勤双肩包背包CZ176",
+  "price": 1236,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "双肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 419,
+ "fields": {
+  "pid": "C122",
+  "name": "COACH/蔻驰男士 双肩包WEST32牛皮商务多功能肩背包CV922",
+  "price": 2333,
+  "sales": 100,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "双肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 420,
+ "fields": {
+  "pid": "C127",
+  "name": "COACH蔻驰光学眼镜框女时尚气质黑色圆框休闲素颜眼镜架0HC6160D",
+  "price": 1418,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "其他配饰",
+  "sub_category": "眼镜",
+  "location": "江西",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 421,
+ "fields": {
+  "pid": "C132",
+  "name": "自营COACH/蔻驰托特包 单肩手提包 CITY系列大容量通勤女士包",
+  "price": 1432,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 422,
+ "fields": {
+  "pid": "C138",
+  "name": "COACH蔻驰光学眼镜框女潮流复古镜架气质素颜小圆框配度数0HC5133",
+  "price": 1418,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "其他配饰",
+  "sub_category": "眼镜",
+  "location": "江西",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 423,
+ "fields": {
+  "pid": "C139",
+  "name": "COACH蔲驰BROOKLYN 28/39 BELLA 31女款包包简约通勤手提单肩包",
+  "price": 1911,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 424,
+ "fields": {
+  "pid": "C152",
+  "name": "自营COACH/蔻驰手表女CARY小绿表石英贝母盘镶钻女表14503951",
+  "price": 959,
+  "sales": 100,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 425,
+ "fields": {
+  "pid": "C167",
+  "name": "自营COACH/蔻驰品牌徽标拉链开合人造革小号女款棕黄色CEO23",
+  "price": 1360,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "未分类",
+  "sub_category": "未分类",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 426,
+ "fields": {
+  "pid": "C170",
+  "name": "COACH/蔻驰 CITY MINI TOTE经典印花女士单肩手提托特包CW032",
+  "price": 1013,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 427,
+ "fields": {
+  "pid": "C172",
+  "name": "COACH/蔻驰时尚老花盒子包 单肩手提斜挎包女包休闲通勤CBQ35",
+  "price": 1292,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 428,
+ "fields": {
+  "pid": "C175",
+  "name": "自营COACH/蔻驰围巾羊绒双面字母印花流苏披肩两用节日礼物",
+  "price": 798,
+  "sales": 100,
+  "price_band": "500-1000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 429,
+ "fields": {
+  "pid": "C179",
+  "name": "COACH/蔻驰女士经典老花拉链百搭时尚多隔层休闲钱包",
+  "price": 283,
+  "sales": 100,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 430,
+ "fields": {
+  "pid": "C186",
+  "name": "自营COACH/蔻驰手表女经典复古老花镶钻皮带石英女表14503150",
+  "price": 1019,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 431,
+ "fields": {
+  "pid": "C192",
+  "name": "COACH蔻驰百搭保暖女秋冬羊绒羊毛披肩经典双面C字母长款围巾",
+  "price": 673,
+  "sales": 100,
+  "price_band": "500-1000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 432,
+ "fields": {
+  "pid": "C210",
+  "name": "COACH/蔻驰女士简约高级首饰套装412845",
+  "price": 540,
+  "sales": 100,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "首饰-其他",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 433,
+ "fields": {
+  "pid": "C218",
+  "name": "COACH蔻驰女包专柜款JULIET链条单肩斜挎手提包腋下包HOBO包CAM26",
+  "price": 1653,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "hobo包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 434,
+ "fields": {
+  "pid": "C230",
+  "name": "COACH/蔻驰女士TABBY专柜款 羊皮革轻奢通勤 链条单肩斜挎包CP149",
+  "price": 2679,
+  "sales": 100,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 435,
+ "fields": {
+  "pid": "C237",
+  "name": "COACH蔻驰 BROOKLYN 39专柜款美拉德风女士皮质单肩手提包CU044",
+  "price": 1819,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 436,
+ "fields": {
+  "pid": "C249",
+  "name": "国内现货COACH蔻驰DEMPSEY22情人节奶茶卡其30单肩老花牛仔托特包",
+  "price": 1398,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "河北",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 437,
+ "fields": {
+  "pid": "C275",
+  "name": "COACH蔻驰女包LAUREL31流浪包25MINI香布蕾牛仔蓝手提腋下包",
+  "price": 1047,
+  "sales": 100,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 438,
+ "fields": {
+  "pid": "C306",
+  "name": "COACH/蔻驰女士时尚百搭耳环351443",
+  "price": 293,
+  "sales": 100,
+  "price_band": "0-500",
+  "category": "首饰",
+  "sub_category": "耳钉",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 439,
+ "fields": {
+  "pid": "C352",
+  "name": "COACH蔻驰 奥莱款女士手表腕表14503150",
+  "price": 843,
+  "sales": 100,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "河北",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 440,
+ "fields": {
+  "pid": "C099",
+  "name": "COACH/蔻驰女士标志性珐琅款百搭时尚手链手镯礼盒装",
+  "price": 402,
+  "sales": 93,
+  "price_band": "0-500",
+  "category": "首饰",
+  "sub_category": "手链",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 441,
+ "fields": {
+  "pid": "C173",
+  "name": "代购COACH蔻驰女士手表CASS系列山茶花真皮小方表欧美石英表",
+  "price": 950,
+  "sales": 92,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 442,
+ "fields": {
+  "pid": "C020",
+  "name": "自营COACH/蔻驰女士托特包时尚百搭老花迷你手提单肩女包",
+  "price": 1182,
+  "sales": 91,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 443,
+ "fields": {
+  "pid": "C107",
+  "name": "COACH/蔻驰老花水桶包单肩包大容量女包CBH07",
+  "price": 1803,
+  "sales": 89,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 444,
+ "fields": {
+  "pid": "C309",
+  "name": "国内现货COACH蔻驰吸扣奶茶托特CITY 33 TOTE单肩包5696 4455",
+  "price": 968,
+  "sales": 88,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 445,
+ "fields": {
+  "pid": "C334",
+  "name": "COACH/蔻驰HIGHLINE 女士时尚通勤百搭平底系带低帮板鞋CCN67",
+  "price": 729,
+  "sales": 85,
+  "price_band": "500-1000",
+  "category": "鞋靴",
+  "sub_category": "运动鞋",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 446,
+ "fields": {
+  "pid": "C129",
+  "name": "自营COACH/蔻驰丹宁老花款单肩斜挎包手提包麻将包CDE31IMTYV",
+  "price": 850,
+  "sales": 84,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 447,
+ "fields": {
+  "pid": "C141",
+  "name": "COACH/蔻驰女士托特包CITY 15手提包TOTE单肩包CW032",
+  "price": 1445,
+  "sales": 84,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 448,
+ "fields": {
+  "pid": "C294",
+  "name": "国内现货COACH蔻驰经典款金色双环项链女锁骨链",
+  "price": 292,
+  "sales": 84,
+  "price_band": "0-500",
+  "category": "首饰",
+  "sub_category": "项链",
+  "location": "四川",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 449,
+ "fields": {
+  "pid": "C238",
+  "name": "COACH/蔻驰TABBY22菱格纹女士优雅时尚百搭双肩包背包斜挎包CU076",
+  "price": 2603,
+  "sales": 81,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "双肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 450,
+ "fields": {
+  "pid": "C023",
+  "name": "潼妈 COACH蔻驰女士经典LOGO带帽拉链卫衣外套CCB95 加拿大代购",
+  "price": 732,
+  "sales": 79,
+  "price_band": "500-1000",
+  "category": "服饰",
+  "sub_category": "卫衣",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 451,
+ "fields": {
+  "pid": "C276",
+  "name": "自营COACH/蔻驰手表女AUDREY母贝小金表石英钢带女表14503372",
+  "price": 1233,
+  "sales": 77,
+  "price_band": "1000-2000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 452,
+ "fields": {
+  "pid": "C243",
+  "name": "蔻驰同名女士淡香水花馥蕊浓香水高档礼盒商务套装送女友",
+  "price": 268,
+  "sales": 76,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水礼盒",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 453,
+ "fields": {
+  "pid": "C159",
+  "name": "COACH/蔻驰女士CAITLIN系列腋下包小单肩斜挎包月牙包牛角包CDZ88",
+  "price": 1503,
+  "sales": 75,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "月牙包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 454,
+ "fields": {
+  "pid": "C307",
+  "name": "COACH/蔻驰经典印花托特包女单肩包购物袋大容量通勤包",
+  "price": 2579,
+  "sales": 68,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 455,
+ "fields": {
+  "pid": "C085",
+  "name": "COACH蔻驰BRIDGET腋下包复古风格法棍包",
+  "price": 1462,
+  "sales": 67,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "上海",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 456,
+ "fields": {
+  "pid": "C112",
+  "name": "COACH/蔻驰托特包 单肩手提斜包 茉莉25大容量女士包CV965",
+  "price": 1403,
+  "sales": 67,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 457,
+ "fields": {
+  "pid": "C193",
+  "name": "COACH/蔻驰CITY拉链款迷你托特包老花单肩斜挎手提包",
+  "price": 1340,
+  "sales": 67,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 458,
+ "fields": {
+  "pid": "C250",
+  "name": "自营COACH/蔻驰女士 CAITLIN系列 腋下手提包单肩斜挎包",
+  "price": 1534,
+  "sales": 67,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 459,
+ "fields": {
+  "pid": "C346",
+  "name": "自营COACH/蔻驰印花托特包购物手提单肩通勤出行包大号奶茶色",
+  "price": 1514,
+  "sales": 65,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 460,
+ "fields": {
+  "pid": "C108",
+  "name": "COACH蔻驰潮流复古板材眼镜框0HC6160时尚百搭素颜显脸小近视镜架",
+  "price": 457,
+  "sales": 61,
+  "price_band": "0-500",
+  "category": "其他配饰",
+  "sub_category": "眼镜",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 461,
+ "fields": {
+  "pid": "C261",
+  "name": "COACH蔻驰JULIET25朱丽叶腋下老花手提单肩斜跨链条包",
+  "price": 1363,
+  "sales": 59,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 462,
+ "fields": {
+  "pid": "C110",
+  "name": "自营COACH/蔻驰女士时尚百搭单肩手提包托特包单肩包",
+  "price": 1958,
+  "sales": 58,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 463,
+ "fields": {
+  "pid": "C014",
+  "name": "COACH/蔻驰 MAGGIE 24品牌LOGO标志 人造革手提包单肩包女款CY676",
+  "price": 1658,
+  "sales": 57,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 464,
+ "fields": {
+  "pid": "C021",
+  "name": "自营COACH/蔻驰女士托特包ZIP24经典老花手提包百搭单肩包",
+  "price": 1183,
+  "sales": 53,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 465,
+ "fields": {
+  "pid": "C068",
+  "name": "COACH/蔻驰BLEECKER女士百搭单肩斜挎手提包CCX07",
+  "price": 1668,
+  "sales": 52,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 466,
+ "fields": {
+  "pid": "C090",
+  "name": "蔻驰皮带双扣适用于男士真皮双面印花腰带提货券",
+  "price": 338,
+  "sales": 52,
+  "price_band": "0-500",
+  "category": "腰带",
+  "sub_category": "男士腰带",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 467,
+ "fields": {
+  "pid": "C166",
+  "name": "自营COACH/蔻驰女士流浪包时尚老花大容量手拎单肩女包",
+  "price": 2182,
+  "sales": 52,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 468,
+ "fields": {
+  "pid": "C335",
+  "name": "COACH/蔻驰女士CITY 15托特包单肩斜挎手提女包",
+  "price": 1309,
+  "sales": 52,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 469,
+ "fields": {
+  "pid": "C345",
+  "name": "代购COACH蔻驰手表女PARK系列女士经典老花皮带日辉纹石英表",
+  "price": 1210,
+  "sales": 52,
+  "price_band": "1000-2000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 470,
+ "fields": {
+  "pid": "C310",
+  "name": "COACH蔻驰 时尚经典同名女士/男士/逐梦落日腮红香水试管小样Q版",
+  "price": 11,
+  "sales": 50,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水小样",
+  "location": "上海",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 471,
+ "fields": {
+  "pid": "C130",
+  "name": "自营COACH/蔻驰女士麻将包NOLITA19腋下包百搭单肩手提包",
+  "price": 933,
+  "sales": 46,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 472,
+ "fields": {
+  "pid": "C156",
+  "name": "COACH蔻驰光学眼镜框女纯钛气质椭圆镜架文艺素颜近视眼镜0HC5189",
+  "price": 1518,
+  "sales": 46,
+  "price_band": "1000-2000",
+  "category": "其他配饰",
+  "sub_category": "眼镜",
+  "location": "江西",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 473,
+ "fields": {
+  "pid": "C101",
+  "name": "自营COACH/蔻驰波士顿包ROWAN系列经典老花手提单肩斜挎包",
+  "price": 1483,
+  "sales": 45,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 474,
+ "fields": {
+  "pid": "C327",
+  "name": "木木加拿大 COACH蔻驰经典26新男女羽绒服 马甲外套 加拿大",
+  "price": 599,
+  "sales": 45,
+  "price_band": "500-1000",
+  "category": "服饰",
+  "sub_category": "外套夹克",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 475,
+ "fields": {
+  "pid": "C174",
+  "name": "自营COACH/蔻驰女士零钱包经典老花拼皮手拿手拎腕包",
+  "price": 344,
+  "sales": 44,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 476,
+ "fields": {
+  "pid": "C136",
+  "name": "COACH蔻驰CITY30经典老花拉链闭合托特包TOTE包购物袋手提单肩包",
+  "price": 1689,
+  "sales": 43,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 477,
+ "fields": {
+  "pid": "C194",
+  "name": "COACH蔻驰女包LAUREL31流浪包25经典香布蕾牛仔蓝手提腋下包",
+  "price": 1135,
+  "sales": 43,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 478,
+ "fields": {
+  "pid": "C240",
+  "name": "COACH蔻驰金色双环吊坠项链轻奢精致锁骨链女友中秋送礼",
+  "price": 509,
+  "sales": 43,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "项链",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 479,
+ "fields": {
+  "pid": "C117",
+  "name": "COACH蔻驰CITY26/23托特包老花印花购物袋单肩包",
+  "price": 1164,
+  "sales": 41,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 480,
+ "fields": {
+  "pid": "C200",
+  "name": "真皮蔻驰皮带男士适用于商务休闲双面老花裤腰带代金券",
+  "price": 358,
+  "sales": 39,
+  "price_band": "0-500",
+  "category": "腰带",
+  "sub_category": "男士腰带",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 481,
+ "fields": {
+  "pid": "C231",
+  "name": "COACH蔻驰女包LAUREL流浪包单肩腋下斜挎包",
+  "price": 1334,
+  "sales": 39,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 482,
+ "fields": {
+  "pid": "C221",
+  "name": "真皮COACH/蔻驰皮带男士适用于商务休闲双面老花裤腰带",
+  "price": 358,
+  "sales": 38,
+  "price_band": "0-500",
+  "category": "腰带",
+  "sub_category": "男士腰带",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 483,
+ "fields": {
+  "pid": "C114",
+  "name": "美国免税COACH/蔻驰女包LAUREL31流浪包经典老花手提单肩包",
+  "price": 1344,
+  "sales": 37,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 484,
+ "fields": {
+  "pid": "C263",
+  "name": "美国直邮COACH蔻驰女包CITY33老花托特包通勤TOTE大容量单肩包",
+  "price": 898,
+  "sales": 37,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 485,
+ "fields": {
+  "pid": "C109",
+  "name": "COACH蔻驰WAVERLY女士单肩手提包 麻将包腋下包CCC36",
+  "price": 1403,
+  "sales": 36,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 486,
+ "fields": {
+  "pid": "C191",
+  "name": "COACH/蔻驰经典标志RAINER 18号斜挎包 CEO23",
+  "price": 1388,
+  "sales": 34,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 487,
+ "fields": {
+  "pid": "C241",
+  "name": "自营COACH/蔻驰黄铜色金属硬件女士单肩手提包CCD38女包小包",
+  "price": 699,
+  "sales": 33,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 488,
+ "fields": {
+  "pid": "C226",
+  "name": "美国直邮COACH/蔻驰LAUREL31经典老花大容量流浪包单肩手提斜跨包",
+  "price": 980,
+  "sales": 32,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 489,
+ "fields": {
+  "pid": "C308",
+  "name": "COACH蔻驰男士短款钱包男款三合一3 IN 1 WALLET钱夹卡包一体礼盒",
+  "price": 418,
+  "sales": 32,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 490,
+ "fields": {
+  "pid": "C330",
+  "name": "蔻驰COACH男士长款钱包钱夹男款拉链老花真皮钱包手拿包礼盒装",
+  "price": 548,
+  "sales": 32,
+  "price_band": "500-1000",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 491,
+ "fields": {
+  "pid": "C007",
+  "name": "COACH蔻驰 节日限定经典老花标志挂件粉色斜挎包单肩包手提包",
+  "price": 1166,
+  "sales": 31,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 492,
+ "fields": {
+  "pid": "C081",
+  "name": "COACH蔻驰经典老花卡其色小号麻将包腋下包单肩手提包",
+  "price": 627,
+  "sales": 31,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 493,
+ "fields": {
+  "pid": "C140",
+  "name": "COACH/蔻驰CAREY 19经典标志女士时尚潮流单肩斜挎手提包CEK69",
+  "price": 1055,
+  "sales": 30,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 494,
+ "fields": {
+  "pid": "C146",
+  "name": "自营COACH蔻驰大号女款托特包手提包TOTE包斜挎包购物袋女包",
+  "price": 1187,
+  "sales": 28,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 495,
+ "fields": {
+  "pid": "C154",
+  "name": "美国直邮COACH蔻驰包包KAY20经典老花水桶包女单肩手提斜挎盒子包",
+  "price": 1018,
+  "sales": 27,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 496,
+ "fields": {
+  "pid": "C209",
+  "name": "自营COACH/蔻驰HADLEY20拉链暗袋皮革单肩斜挎包 号女款褐色",
+  "price": 1188,
+  "sales": 27,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 497,
+ "fields": {
+  "pid": "C258",
+  "name": "美国直邮COACH蔻驰包包LAUREL31老花流浪包通勤单肩手提托特包女",
+  "price": 1258,
+  "sales": 27,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 498,
+ "fields": {
+  "pid": "C056",
+  "name": "COACH女表蔻驰樱花粉玫瑰粉石英圆表手表送女友礼物",
+  "price": 552,
+  "sales": 24,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 499,
+ "fields": {
+  "pid": "C176",
+  "name": "COACH/蔻驰女士三环项链轻奢时尚吊坠锁骨链饰品首饰",
+  "price": 524,
+  "sales": 23,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "项链",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 500,
+ "fields": {
+  "pid": "C126",
+  "name": "美国直邮COACH蔻驰包包TABBY26菱格链条包女腋下包单肩斜跨手提包",
+  "price": 1228,
+  "sales": 22,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 501,
+ "fields": {
+  "pid": "C121",
+  "name": "美国COACH/蔻驰女包TABBY26酒神包小羊皮翻盖手提单肩手提包",
+  "price": 1334,
+  "sales": 21,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 502,
+ "fields": {
+  "pid": "C264",
+  "name": "美国直邮COACH/蔻驰包包JULIET25朱丽叶女包单肩包斜跨腋下包",
+  "price": 1080,
+  "sales": 21,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 503,
+ "fields": {
+  "pid": "C102",
+  "name": "COACH蔻驰纽约同名经典女士浓香水花果香调30ML",
+  "price": 171,
+  "sales": 20,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "女士香水",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 504,
+ "fields": {
+  "pid": "C236",
+  "name": "美国直邮COACH/蔻驰TAXI 21托特包通勤老花小号菜篮子手提斜挎包",
+  "price": 1050,
+  "sales": 20,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 505,
+ "fields": {
+  "pid": "C087",
+  "name": "COACH/蔻驰CARGO樱桃图案刺绣女百搭单肩手提包CDY91",
+  "price": 1223,
+  "sales": 19,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 506,
+ "fields": {
+  "pid": "C095",
+  "name": "美国直邮COACH蔻驰女包TERI25印花腋下包包链条包单肩斜挎手提包",
+  "price": 1180,
+  "sales": 19,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 507,
+ "fields": {
+  "pid": "C160",
+  "name": "美国直邮COACH蔻驰女包CALLY17迷你手提斜跨包经典满印PVC琴谱包",
+  "price": 888,
+  "sales": 19,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 508,
+ "fields": {
+  "pid": "C135",
+  "name": "COACH/蔻驰GRAMERCY女士纯色牛皮购物袋单肩手提通勤大容量托特包",
+  "price": 2736,
+  "sales": 18,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 509,
+ "fields": {
+  "pid": "C228",
+  "name": "美国直邮COACH蔻驰女包TABBY26菱格链条包包单肩斜挎翻盖包小方包",
+  "price": 1180,
+  "sales": 17,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 510,
+ "fields": {
+  "pid": "C279",
+  "name": "自营COACH/蔻驰女士腋下包牛仔蓝织物拼皮手拎包百搭单肩包",
+  "price": 1033,
+  "sales": 17,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 511,
+ "fields": {
+  "pid": "C049",
+  "name": "代购蔻驰皮带女适用于女士真皮休闲腰带小C扣提货券",
+  "price": 258,
+  "sales": 16,
+  "price_band": "0-500",
+  "category": "腰带",
+  "sub_category": "女士腰带",
+  "location": "广东",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 512,
+ "fields": {
+  "pid": "C133",
+  "name": "美国COACH/蔻驰女包ROWAN18波士顿包经典老花手提单肩斜挎包",
+  "price": 1064,
+  "sales": 16,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 513,
+ "fields": {
+  "pid": "C137",
+  "name": "木木加拿大 COACH蔻驰奥莱NOLITA 19 经典牛皮印花手包麻将包",
+  "price": 499,
+  "sales": 16,
+  "price_band": "0-500",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "加拿大",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 514,
+ "fields": {
+  "pid": "C125",
+  "name": "自营COACH/蔻驰女士抽绳水桶包经典老花百搭手提单肩包",
+  "price": 2082,
+  "sales": 14,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 515,
+ "fields": {
+  "pid": "C171",
+  "name": "自营COACH/蔻驰EMILY 23 满印老花新月包单肩包中号女款棕色",
+  "price": 1752,
+  "sales": 14,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 516,
+ "fields": {
+  "pid": "C197",
+  "name": "美国直邮COACH蔻驰ROWAN22老花水桶包百搭大容量单肩斜挎手提包包",
+  "price": 1160,
+  "sales": 14,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 517,
+ "fields": {
+  "pid": "C143",
+  "name": "COACH蔻驰CARRYALL34保龄球波士顿包手提包CCM57",
+  "price": 1219,
+  "sales": 13,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 518,
+ "fields": {
+  "pid": "C086",
+  "name": "自营COACH/蔻驰圆领套头卫衣经典C纹老花拼色休闲宽松春秋",
+  "price": 588,
+  "sales": 12,
+  "price_band": "500-1000",
+  "category": "服饰",
+  "sub_category": "卫衣",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 519,
+ "fields": {
+  "pid": "C162",
+  "name": "COACH/蔻驰女士 专柜款WILLOW托特包 老花大容量单肩手提包C0693",
+  "price": 1603,
+  "sales": 12,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 520,
+ "fields": {
+  "pid": "C185",
+  "name": "自营COACH/蔻驰女士CITY15小号单肩斜挎包托特包CW032IMXAQ",
+  "price": 1175,
+  "sales": 12,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 521,
+ "fields": {
+  "pid": "C295",
+  "name": "美国直邮COACH蔻驰包包TERI女包经典复古月牙包单肩斜跨腋下包包",
+  "price": 1020,
+  "sales": 12,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "月牙包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 522,
+ "fields": {
+  "pid": "C032",
+  "name": "自营COACH/蔻驰男士钱包商务经典老花手拿包小号",
+  "price": 782,
+  "sales": 11,
+  "price_band": "500-1000",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 523,
+ "fields": {
+  "pid": "C262",
+  "name": "COACH蔻驰ETTA 25标志绳绒织物女士小号翻盖单肩包手提包CCV65ETT",
+  "price": 1603,
+  "sales": 11,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 524,
+ "fields": {
+  "pid": "C328",
+  "name": "美国直邮COACH/蔻驰ROWAN18波士顿包老花MINI单肩手提斜跨包女",
+  "price": 1158,
+  "sales": 11,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 525,
+ "fields": {
+  "pid": "C018",
+  "name": "COACH CAITLIN 24女士单肩斜挎手提包肩带可拆卸CEK80",
+  "price": 1419,
+  "sales": 9,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 526,
+ "fields": {
+  "pid": "C025",
+  "name": "自营COACH/蔻驰纯色女士时尚潮流百搭单肩手提包大容量垃圾袋",
+  "price": 1871,
+  "sales": 9,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 527,
+ "fields": {
+  "pid": "C205",
+  "name": "COACH蔻驰CAITLIN凯特琳链条腋下法棍包单肩斜挎手提包",
+  "price": 1244,
+  "sales": 9,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 528,
+ "fields": {
+  "pid": "C222",
+  "name": "COACH/蔻驰托特包 茉莉25单肩手提包挎包 大容量女包",
+  "price": 1553,
+  "sales": 9,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 529,
+ "fields": {
+  "pid": "C077",
+  "name": "COACH蔻驰BRIDGET腋下复古法棍包蝴蝶结单肩包小方包",
+  "price": 1384,
+  "sales": 8,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 530,
+ "fields": {
+  "pid": "C169",
+  "name": "木木加拿大 COACH蔻驰奥莱经典女款CITY印花彩色托特包 直邮",
+  "price": 1099,
+  "sales": 8,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "加拿大",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 531,
+ "fields": {
+  "pid": "C187",
+  "name": "COACH/蔻驰女包专柜TOTE托特包单肩斜挎手提包CZ100",
+  "price": 879,
+  "sales": 8,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 532,
+ "fields": {
+  "pid": "C224",
+  "name": "美国直邮COACH/蔻驰TABBY20菱格小羊皮腋下链条包单肩斜跨手提包",
+  "price": 1100,
+  "sales": 8,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 533,
+ "fields": {
+  "pid": "C344",
+  "name": "自营COACH/蔻驰女士围巾百搭保暖羊驼毛围脖秋冬季披肩",
+  "price": 620,
+  "sales": 8,
+  "price_band": "500-1000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 534,
+ "fields": {
+  "pid": "C012",
+  "name": "自营COACH/蔻驰女士水桶包单肩手提斜挎福袋抽绳小斜挎包",
+  "price": 1463,
+  "sales": 7,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 535,
+ "fields": {
+  "pid": "C047",
+  "name": "自营COACH/蔻驰拼色连帽拉链长袖卫衣CO827R8E 男款 木炭灰色",
+  "price": 776,
+  "sales": 7,
+  "price_band": "500-1000",
+  "category": "服饰",
+  "sub_category": "卫衣",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 536,
+ "fields": {
+  "pid": "C050",
+  "name": "COACH蔻驰手表PRESTON系列白色陶瓷日历表数字指针女表礼物",
+  "price": 914,
+  "sales": 7,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 537,
+ "fields": {
+  "pid": "C341",
+  "name": "自营COACH/蔻驰KLARE18品牌徽标奶茶色斜挎包小号女款",
+  "price": 1273,
+  "sales": 7,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 538,
+ "fields": {
+  "pid": "C246",
+  "name": "寇驰COACH蔻驰Q版4.5ML玫瑰之名以爱之名花馥蕊悠然女士淡浓香水",
+  "price": 38,
+  "sales": 5,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水小样",
+  "location": "四川",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 539,
+ "fields": {
+  "pid": "C207",
+  "name": "自营COACH/蔻驰奥莱款女士织物单肩手提包腋下包单肩包斜挎包",
+  "price": 1615,
+  "sales": 4,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 540,
+ "fields": {
+  "pid": "C285",
+  "name": "蔻驰COACH EVELYN抽绳水桶包链条单肩手提斜挎包",
+  "price": 1538,
+  "sales": 4,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "河南",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 541,
+ "fields": {
+  "pid": "C348",
+  "name": "COACH/蔻驰女2026PENN 21单肩腋下手提包CR688",
+  "price": 1019,
+  "sales": 4,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 542,
+ "fields": {
+  "pid": "C024",
+  "name": "自营COACH/蔻驰经典老花托特包百搭大容量单肩手提轻奢女包",
+  "price": 1483,
+  "sales": 3,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 543,
+ "fields": {
+  "pid": "C045",
+  "name": "COACH/蔻驰女包老花大容量通勤戴妃包时尚休闲简约单肩斜挎杀手包",
+  "price": 918,
+  "sales": 3,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 544,
+ "fields": {
+  "pid": "C065",
+  "name": "日本直邮COACH女士手提包COACH 27583轻巧小巧可两用奢华时尚",
+  "price": 1453,
+  "sales": 3,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "手提包",
+  "location": "日本",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 545,
+ "fields": {
+  "pid": "C337",
+  "name": "COACH蔻驰 奥莱款男士长袖卫衣外套帽衫",
+  "price": 708,
+  "sales": 3,
+  "price_band": "500-1000",
+  "category": "服饰",
+  "sub_category": "卫衣",
+  "location": "河北",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 546,
+ "fields": {
+  "pid": "C215",
+  "name": "COACH/蔻驰CARGO33女士休闲时尚双肩包背包双肩带帆布大容量CAM76",
+  "price": 1006,
+  "sales": 2,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "双肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 547,
+ "fields": {
+  "pid": "C229",
+  "name": "COACH/蔻驰CORNER ZIP16手拿包织物老花百搭手挽钱包",
+  "price": 289,
+  "sales": 2,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 548,
+ "fields": {
+  "pid": "C163",
+  "name": "COACH蔻驰 专柜款手镯手链335755GLD100",
+  "price": 380,
+  "sales": 1,
+  "price_band": "0-500",
+  "category": "首饰",
+  "sub_category": "手链",
+  "location": "河北",
+  "channel": "专柜渠道",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 549,
+ "fields": {
+  "pid": "C199",
+  "name": "COACH/蔻驰女士新月EMILY月牙包手提腋下单肩斜挎包",
+  "price": 806,
+  "sales": 1,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "月牙包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 550,
+ "fields": {
+  "pid": "C204",
+  "name": "COACH/蔻驰 CITY 33 经典老花女士单肩斜挎手提托特包 CV976SVPWH",
+  "price": 1498,
+  "sales": 1,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 551,
+ "fields": {
+  "pid": "C267",
+  "name": "COACH 蔻驰断码女式休闲鞋",
+  "price": 601,
+  "sales": 1,
+  "price_band": "500-1000",
+  "category": "鞋靴",
+  "sub_category": "运动鞋",
+  "location": "天津",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 552,
+ "fields": {
+  "pid": "C332",
+  "name": "COACH/蔻驰专柜PLAZA女士老花单肩手提包麻将包CCD38",
+  "price": 3424,
+  "sales": 1,
+  "price_band": "3000+",
+  "category": "包袋",
+  "sub_category": "麻将包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 553,
+ "fields": {
+  "pid": "C005",
+  "name": "COACH/蔻驰奥莱女士老花LAUREL 31号手提包单肩包斜挎包通勤",
+  "price": 2500,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 554,
+ "fields": {
+  "pid": "C008",
+  "name": "COACH/蔻驰奥莱女士白色TEDDY修身圆领长袖T恤短款休闲",
+  "price": 850,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "服饰",
+  "sub_category": "T恤",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 555,
+ "fields": {
+  "pid": "C009",
+  "name": "COACH蔻驰女士LOGO压纹手链FARFETCH发发奇",
+  "price": 800,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "手链",
+  "location": "葡萄牙",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 556,
+ "fields": {
+  "pid": "C010",
+  "name": "国内专柜直邮 平台鉴定 假一罚四 COACH/蔻驰 拉链卡包 CFT18",
+  "price": 850,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "钱包卡包",
+  "sub_category": "卡包",
+  "location": "上海",
+  "channel": "专柜渠道",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 557,
+ "fields": {
+  "pid": "C011",
+  "name": "COACH/蔻驰奥莱女士复古挚爱宽大型羊皮革真皮夹克外套",
+  "price": 3225,
+  "sales": 0,
+  "price_band": "3000+",
+  "category": "服饰",
+  "sub_category": "外套夹克",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 558,
+ "fields": {
+  "pid": "C013",
+  "name": "COACH/蔻驰奥莱女士经典标志老花FIONA 24号托特包单肩包休闲通勤",
+  "price": 1288,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 559,
+ "fields": {
+  "pid": "C017",
+  "name": "COACH/蔻驰女士菱格纹绗缝TABBY 20号单肩包斜挎包高级感通勤",
+  "price": 3450,
+  "sales": 0,
+  "price_band": "3000+",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 560,
+ "fields": {
+  "pid": "C022",
+  "name": "COACH专柜CHELSEA30切尔西小号横款方形单肩包翻盖包女包气质款",
+  "price": 2199,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 561,
+ "fields": {
+  "pid": "C026",
+  "name": "COACH蔻驰 奥莱款女士帆布单肩手提托特包CES71IMN48",
+  "price": 1360,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "香港",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 562,
+ "fields": {
+  "pid": "C027",
+  "name": "COACH/蔻驰奥莱女士棉质老花方形图案花卉印花经典款T恤",
+  "price": 425,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "服饰",
+  "sub_category": "T恤",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 563,
+ "fields": {
+  "pid": "C028",
+  "name": "COACH/蔻驰奥莱男女同款经典标志大尺寸老花围巾休闲复古情侣款",
+  "price": 1188,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 564,
+ "fields": {
+  "pid": "C029",
+  "name": "COACH | BRAIN DEAD/蔻驰男士条纹户外短裤棉质休闲裤子",
+  "price": 980,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "服饰",
+  "sub_category": "裤装",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 565,
+ "fields": {
+  "pid": "C030",
+  "name": "COACH CEO85 PLAID MINISKIRT 女秋26女格纹学院风半身裙",
+  "price": 1999,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "服饰",
+  "sub_category": "裙装",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 566,
+ "fields": {
+  "pid": "C031",
+  "name": "COACH蔻驰女士樱桃造型耳钉FARFETCH发发奇",
+  "price": 745,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "耳钉",
+  "location": "葡萄牙",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 567,
+ "fields": {
+  "pid": "C033",
+  "name": "COACH蔻驰女士晶饰手链FARFETCH发发奇",
+  "price": 668,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "手链",
+  "location": "葡萄牙",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 568,
+ "fields": {
+  "pid": "C034",
+  "name": "COACH蔻驰女士SIGNATURE C 手镯FARFETCH发发奇",
+  "price": 745,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "手镯",
+  "location": "葡萄牙",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 569,
+ "fields": {
+  "pid": "C035",
+  "name": "COACH蔻驰手镯女士时尚精致百搭优雅金色简约设计推锁开合圆形",
+  "price": 1327,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "首饰",
+  "sub_category": "手镯",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 570,
+ "fields": {
+  "pid": "C036",
+  "name": "COACH 女士手链手镯 37422719GLD100 AW2024 色",
+  "price": 965,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "首饰",
+  "sub_category": "手链",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 571,
+ "fields": {
+  "pid": "C037",
+  "name": "1H可退 香港直邮COACH 女士斜挎包 CW032IMXDM SS2024 花色 徽标",
+  "price": 1730,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 572,
+ "fields": {
+  "pid": "C038",
+  "name": "包叙 适用COACH蔻驰ABBIE腋下法棍包内胆包 轻薄撑型收纳内衬口袋",
+  "price": 58,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "湖北",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 573,
+ "fields": {
+  "pid": "C039",
+  "name": "适用于COACH蔻驰波士顿包内胆包 内衬包撑包中包整理收纳包内衬包",
+  "price": 93,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 574,
+ "fields": {
+  "pid": "C040",
+  "name": "适用蔻驰CITY15内胆COACH迷你托特包防水杜邦纸内衬超轻收纳包撑",
+  "price": 60,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 575,
+ "fields": {
+  "pid": "C042",
+  "name": "COACH/蔻驰奥莱女士经典标志老花CITY33号大容量托特包手提包",
+  "price": 1688,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 576,
+ "fields": {
+  "pid": "C046",
+  "name": "直邮COACH蔻驰包包ROWAN18波士顿包老花MINI手提斜跨包女",
+  "price": 850,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 577,
+ "fields": {
+  "pid": "C052",
+  "name": "COACH/蔻驰奥莱女士老花CITY 26号托特包手提包单肩包",
+  "price": 1488,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 578,
+ "fields": {
+  "pid": "C054",
+  "name": "COACH蔻驰女包 CITY15迷你托特包单肩斜挎包宽肩带",
+  "price": 1079,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 579,
+ "fields": {
+  "pid": "C059",
+  "name": "直邮COACH蔻驰女包发财桶ROWAN22抽绳水桶包单肩斜挎包",
+  "price": 950,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 580,
+ "fields": {
+  "pid": "C060",
+  "name": "COACH/蔻驰奥莱女士绗缝TERI 单肩包手提包斜挎包复古",
+  "price": 1788,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 581,
+ "fields": {
+  "pid": "C061",
+  "name": "大美玲加拿大直邮 蔻驰COACH专柜TRAIL单肩手提腋下斜挎盒子包",
+  "price": 999,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 582,
+ "fields": {
+  "pid": "C062",
+  "name": "COACH/蔻驰奥莱女士ROWAN迷你波士顿包手提包斜挎包通勤",
+  "price": 1488,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 583,
+ "fields": {
+  "pid": "C063",
+  "name": "COACH/蔻驰官方 奥莱款ZIP人造革配皮男士多卡槽卡包钱包CV764",
+  "price": 432,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 584,
+ "fields": {
+  "pid": "C064",
+  "name": "COACH 女士单肩包 CEY95IMXAQ SS2024 花色 LAURE",
+  "price": 2953,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 585,
+ "fields": {
+  "pid": "C066",
+  "name": "COACH/蔻驰官方 奥莱款女士ROWAN水桶包单肩斜挎手提包CBH07",
+  "price": 2094,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 586,
+ "fields": {
+  "pid": "C071",
+  "name": "COACH/蔻驰官方 奥莱款女士单肩斜挎手提包波士顿桶包CEY63",
+  "price": 1392,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 587,
+ "fields": {
+  "pid": "C074",
+  "name": "COACH蔻驰手拿包 奶白色 带吊牌 皮质好，手感舒",
+  "price": 1762,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "包袋-其他",
+  "location": "上海",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 588,
+ "fields": {
+  "pid": "C075",
+  "name": "中古奢侈品COACH蔻驰女A级95新ZIP WALLET拉链钱包牛皮长钱包",
+  "price": 1072,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 589,
+ "fields": {
+  "pid": "C076",
+  "name": "COACH/蔻驰奥莱女士中长款复古棕色风衣设计感高级感休闲宽松外套",
+  "price": 2550,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "服饰",
+  "sub_category": "外套夹克",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 590,
+ "fields": {
+  "pid": "C078",
+  "name": "COACH/蔻驰官方 奥莱款ETTA 25女士单肩斜挎手提包翻盖包CCV65",
+  "price": 1794,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 591,
+ "fields": {
+  "pid": "C079",
+  "name": "COACH蔻驰女包经典老花百搭水桶包时尚简约休闲通勤单肩斜挎包包",
+  "price": 908,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "香港",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 592,
+ "fields": {
+  "pid": "C083",
+  "name": "直邮COACH蔻驰包包CITY33女包托特包购物袋手提单肩包",
+  "price": 868,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 593,
+ "fields": {
+  "pid": "C084",
+  "name": "美国直邮COACH/蔻驰MOLLIE25老花托特包焦糖女手提单肩斜挎包",
+  "price": 1388,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 594,
+ "fields": {
+  "pid": "C088",
+  "name": "COACH山茶花手表现货现发小众设计高级感气质百搭休闲时尚腕表",
+  "price": 680,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "手表-其他",
+  "location": "湖北",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 595,
+ "fields": {
+  "pid": "C089",
+  "name": "蔻驰（COACH） 蔻驰 秋冬经典C标志 轻盈羊毛混纺围巾粉笔色",
+  "price": 999,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "上海",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 596,
+ "fields": {
+  "pid": "C093",
+  "name": "国现COACH 蔻驰女士粉色圆领T恤",
+  "price": 499,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "服饰",
+  "sub_category": "T恤",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 597,
+ "fields": {
+  "pid": "C094",
+  "name": "COACH蔻驰纽约女士淡香水30ML清新淡花香EDT同名持久留香大牌",
+  "price": 358,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "女士香水",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 598,
+ "fields": {
+  "pid": "C097",
+  "name": "COACH/蔻驰女士TAXI 21号老花托特包斜挎包单肩包手提包",
+  "price": 1650,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 599,
+ "fields": {
+  "pid": "C098",
+  "name": "直邮COACH蔻驰女包TERI25月牙包老花单肩腋下手提斜挎包",
+  "price": 828,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "月牙包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 600,
+ "fields": {
+  "pid": "C106",
+  "name": "COACH/蔻驰奥莱女士老花滚边中长款风衣设计感高级感外套大衣",
+  "price": 2950,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "服饰",
+  "sub_category": "外套夹克",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 601,
+ "fields": {
+  "pid": "C111",
+  "name": "自营COACH/蔻驰经典老花女士托特包大容量单肩手提",
+  "price": 1253,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 602,
+ "fields": {
+  "pid": "C113",
+  "name": "COACH/蔻驰官方 奥莱LAUREL女单宁牛仔单肩斜挎手提包流浪包CEF26",
+  "price": 2394,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "香港",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 603,
+ "fields": {
+  "pid": "C116",
+  "name": "官方直营丨COACH蔻驰奥莱款MOLLIE 25女士单肩斜挎手提包托特包",
+  "price": 1692,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 604,
+ "fields": {
+  "pid": "C118",
+  "name": "COACH蔻驰 ERGO 内置多功能袋 单肩包 中号 琥珀棕色",
+  "price": 1880,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 605,
+ "fields": {
+  "pid": "C119",
+  "name": "COACH/蔻驰奥莱女士经典标志老花MOLLIE 25号托特包手提包斜挎包",
+  "price": 1788,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 606,
+ "fields": {
+  "pid": "C123",
+  "name": "专柜COACH/蔻驰TABBY26酒神包小羊皮链条包女单肩斜挎腋下包",
+  "price": 1440,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 607,
+ "fields": {
+  "pid": "C124",
+  "name": "COACH/蔻驰 女士简约时尚腕表 14503873",
+  "price": 659,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "河北",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 608,
+ "fields": {
+  "pid": "C128",
+  "name": "保税仓发货 现货 COACH蔻驰 CITY 15迷你托特包TOTE包 CW032IMXDM",
+  "price": 920,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 609,
+ "fields": {
+  "pid": "C134",
+  "name": "COACH/蔻驰奥莱女士牛皮革LARA SATCHEL手提包斜挎包复古",
+  "price": 1488,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 610,
+ "fields": {
+  "pid": "C144",
+  "name": "直邮COACH蔻驰包包女CITY15小托特包斜挎单肩包手提女包MINI",
+  "price": 1028,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 611,
+ "fields": {
+  "pid": "C145",
+  "name": "COACH/蔻驰奥莱女士经典标志老花CITY15号手提包托特包斜挎包通勤",
+  "price": 1288,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 612,
+ "fields": {
+  "pid": "C147",
+  "name": "COACH/蔻驰奥莱女士老花NOLITA 19号手袋手提包腋下包",
+  "price": 988,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 613,
+ "fields": {
+  "pid": "C148",
+  "name": "直邮COACH蔻驰女包JULIET25腋下包朱丽叶老花链条手提单肩包",
+  "price": 1020,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 614,
+ "fields": {
+  "pid": "C150",
+  "name": "COACH/蔻驰官方 奥莱款女士ROWAN单肩斜挎手提包老花水桶包CEZ36",
+  "price": 2094,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 615,
+ "fields": {
+  "pid": "C155",
+  "name": "COACH/蔻驰 MAGGIE 24经典老花手提包单肩包托特女包",
+  "price": 1330,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 616,
+ "fields": {
+  "pid": "C158",
+  "name": "COACH蔻驰托特包CITY30小中33大号拉链卡其老花购物袋女ZIP30手提",
+  "price": 865,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 617,
+ "fields": {
+  "pid": "C164",
+  "name": "31×13×7 1399COACH蔻驰 ASHER 斑点牛毛法棍腋下包",
+  "price": 1399,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 618,
+ "fields": {
+  "pid": "C165",
+  "name": "COACH蔻驰 男士商务休闲皮带腰带正反两用",
+  "price": 452,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "腰带",
+  "sub_category": "男士腰带",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 619,
+ "fields": {
+  "pid": "C168",
+  "name": "COACH/蔻驰官方 奥莱款女士MOLLIE 25单肩斜挎手提包托特包CV965",
+  "price": 1692,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 620,
+ "fields": {
+  "pid": "C178",
+  "name": "COACH/蔻驰奥莱女士SWING皮革领翻领短款风衣外套秋季",
+  "price": 2750,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "服饰",
+  "sub_category": "外套夹克",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 621,
+ "fields": {
+  "pid": "C183",
+  "name": "大美玲加拿大直邮 COACH蔻驰奥莱ASHTON单肩斜挎手提腋下包",
+  "price": 899,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "加拿大",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 622,
+ "fields": {
+  "pid": "C184",
+  "name": "COACH/蔻驰女士高跟凉鞋后绊带水晶装饰尖头细跟通勤晚宴",
+  "price": 2666,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "鞋靴",
+  "sub_category": "凉鞋",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 623,
+ "fields": {
+  "pid": "C188",
+  "name": "COACH/蔻驰 女士卡包CARD CASE证件包零钱包CZ286",
+  "price": 238,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "河南",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 624,
+ "fields": {
+  "pid": "C189",
+  "name": "折扣COACH/蔻驰LAUREL31流浪包女老花色手提单肩斜挎腋下包包",
+  "price": 1520,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 625,
+ "fields": {
+  "pid": "C190",
+  "name": "丽姐美国代购 COACH/蔻驰SATCHEL LARA迷你黑色贝壳斜挎包CEA01",
+  "price": 758,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "贝壳包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 626,
+ "fields": {
+  "pid": "C195",
+  "name": "COACH蔻驰 专柜款 BROOKLYN 单肩包",
+  "price": 1950,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 627,
+ "fields": {
+  "pid": "C196",
+  "name": "直邮COACH蔻驰包包LAUREL31流浪包女老花腋下包单肩手提女包",
+  "price": 858,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 628,
+ "fields": {
+  "pid": "C198",
+  "name": "COACH蔻驰 专柜款手镯手链553124GLD100",
+  "price": 412,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "首饰",
+  "sub_category": "手链",
+  "location": "河北",
+  "channel": "专柜渠道",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 629,
+ "fields": {
+  "pid": "C201",
+  "name": "大美玲加拿大直邮 COACH蔻驰EVELYN奥莱大容量单肩腋下牛皮包",
+  "price": 1199,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "加拿大",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 630,
+ "fields": {
+  "pid": "C202",
+  "name": "美国 COACH/蔻驰CARGO26中号牛仔帆布托特包斜挎包宽肩带 现货",
+  "price": 1399,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 631,
+ "fields": {
+  "pid": "C203",
+  "name": "COACH蔻驰女包流浪包女士LAUREL 31腋下通勤女款手提单肩斜挎包",
+  "price": 1280,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 632,
+ "fields": {
+  "pid": "C206",
+  "name": "专柜COACH蔻驰手提袋礼品袋购物袋纸袋礼品盒包装盒",
+  "price": 15,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "包袋",
+  "sub_category": "手提包",
+  "location": "广东",
+  "channel": "专柜渠道",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 633,
+ "fields": {
+  "pid": "C208",
+  "name": "COACH/蔻驰奥莱女士FAYE迷你拉绳包斜挎包单肩包通勤",
+  "price": 1600,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 634,
+ "fields": {
+  "pid": "C211",
+  "name": "COACH/蔻驰奥莱女士黑色牛皮革老花ELODIE单肩包斜挎包链条包",
+  "price": 1800,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 635,
+ "fields": {
+  "pid": "C212",
+  "name": "COACH蔻驰纽约女士淡香水自然清新花香持久留香同名香水30ML",
+  "price": 358,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "女士香水",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 636,
+ "fields": {
+  "pid": "C214",
+  "name": "COACH蔻驰经典同名男花馥蕊女士香水小样原装加州之梦想之旅",
+  "price": 15,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "香水小样",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 637,
+ "fields": {
+  "pid": "C216",
+  "name": "COACH/蔻驰 TABBY 26 酒神包小号女士单肩手提腋下包 73995B4EB1",
+  "price": 2983,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 638,
+ "fields": {
+  "pid": "C217",
+  "name": "COACH/蔻驰女SATCHEL保龄球波士顿手提斜挎包CBJ62",
+  "price": 1099,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "河南",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 639,
+ "fields": {
+  "pid": "C219",
+  "name": "COACH BARRLE 22专柜款26款新春笔筒包斜挎包",
+  "price": 499,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 640,
+ "fields": {
+  "pid": "C220",
+  "name": "COACH蔻驰BRIDGET34蝴蝶结漆皮单肩包女时尚百搭腋下包",
+  "price": 1990,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "四川",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 641,
+ "fields": {
+  "pid": "C223",
+  "name": "COACH蔻驰奥莱款ROWAN发财桶单肩斜挎手提水桶包CEA23IMPO",
+  "price": 1883,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "浙江",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 642,
+ "fields": {
+  "pid": "C232",
+  "name": "COACH蔻驰凯特琳CAITLIN单肩斜挎包链条包轻便实用",
+  "price": 1346,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 643,
+ "fields": {
+  "pid": "C233",
+  "name": "COACH蔻驰单肩包 拍下不退不换",
+  "price": 1899,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 644,
+ "fields": {
+  "pid": "C235",
+  "name": "COACH/蔻驰奥莱女士羊皮革真皮玛丽珍芭蕾运动单鞋高级",
+  "price": 850,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "鞋靴",
+  "sub_category": "单鞋",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 645,
+ "fields": {
+  "pid": "C239",
+  "name": "COACH蔻驰托特大容量CITY33手提袋女包ZIPTOTE30上班学生妈咪购物",
+  "price": 938,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 646,
+ "fields": {
+  "pid": "C242",
+  "name": "COACH/蔻驰奥莱女士LOLA 29号单肩包腋下包HOBO包大容量",
+  "price": 1950,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "hobo包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 647,
+ "fields": {
+  "pid": "C244",
+  "name": "国内现货 COACH CITY TOTE 33 蔻驰女磁扣托特包购物袋印花斜挎包",
+  "price": 1078,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 648,
+ "fields": {
+  "pid": "C245",
+  "name": "COACH/蔻驰奥莱女士绗缝EVELYN 34号单肩包流浪包托特包",
+  "price": 2700,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 649,
+ "fields": {
+  "pid": "C247",
+  "name": "COACH蔻驰WAVERLY24双旋锁多口袋女包单肩腋下包 美国直邮",
+  "price": 1899,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 650,
+ "fields": {
+  "pid": "C248",
+  "name": "COACH/蔻驰奥莱女士SYDNEY 30号单肩包长柄波士顿通勤",
+  "price": 2300,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 651,
+ "fields": {
+  "pid": "C252",
+  "name": "COACH/蔻驰奥莱女士真皮TERI 19号单肩包手提包斜挎包",
+  "price": 1488,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 652,
+ "fields": {
+  "pid": "C253",
+  "name": "COACH/蔻驰女士DAY老花托特包单肩包手提包高级感通勤",
+  "price": 2090,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 653,
+ "fields": {
+  "pid": "C254",
+  "name": "官方直营丨COACH蔻驰奥莱款MOLLIE25女士单肩斜挎手提包托特包",
+  "price": 1692,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "广东",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 654,
+ "fields": {
+  "pid": "C255",
+  "name": "国柜 蔻驰COACH 专柜TAXI 21 女士小号手提斜挎托特包CCD94",
+  "price": 1479,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "湖南",
+  "channel": "专柜渠道",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 655,
+ "fields": {
+  "pid": "C256",
+  "name": "美国直购 现货 蔻驰COACH CITY 26 33 TOTE 托特包电脑包购物袋",
+  "price": 1228,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "湖南",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 656,
+ "fields": {
+  "pid": "C257",
+  "name": "COACH/蔻驰奥莱女士长款休闲宽松风衣外套设计感经典款高级感大衣",
+  "price": 2950,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "服饰",
+  "sub_category": "外套夹克",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 657,
+ "fields": {
+  "pid": "C259",
+  "name": "COACH/蔻驰奥莱女士老花LAUREL 32号单肩包斜挎包通勤",
+  "price": 2600,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 658,
+ "fields": {
+  "pid": "C260",
+  "name": "美国购 蔻驰COACH MOLLIE22水桶包老花单肩斜挎包",
+  "price": 1079,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "河南",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 659,
+ "fields": {
+  "pid": "C265",
+  "name": "美国购 蔻驰COACH 经典老花马车流浪包LAUREL BAG",
+  "price": 1402,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "河南",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 660,
+ "fields": {
+  "pid": "C268",
+  "name": "美国代购COACH/蔻驰女士BRIDGET 34休闲百搭单肩手提包直邮",
+  "price": 1798,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 661,
+ "fields": {
+  "pid": "C269",
+  "name": "COACH/蔻驰奥莱女士牛皮革STATION CARRYALL手提包斜挎包",
+  "price": 1788,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 662,
+ "fields": {
+  "pid": "C270",
+  "name": "COACH/蔻驰奥莱女士老花ROWAN水桶包手提包斜挎包通勤",
+  "price": 2300,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 663,
+ "fields": {
+  "pid": "C271",
+  "name": "COACH蔻驰女士围巾围脖纯羊毛经典印花披肩保暖时尚",
+  "price": 688,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "围巾丝巾",
+  "sub_category": "围巾",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 664,
+ "fields": {
+  "pid": "C272",
+  "name": "美国购 蔻驰COACH BRIDGET系列翻盖包腋下法棍包手提包单肩包",
+  "price": 1510,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "德国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 665,
+ "fields": {
+  "pid": "C274",
+  "name": "大美玲加拿大直邮 COACH蔻驰KISSLOCK专柜单肩腋下吻锁包",
+  "price": 1399,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 666,
+ "fields": {
+  "pid": "C277",
+  "name": "ZOEY加拿大COACH蔻驰HADLEY法棍单肩包秋日腋下斜挎包",
+  "price": 914,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 667,
+ "fields": {
+  "pid": "C278",
+  "name": "考拉美国代购COACH/蔻驰奥莱CITY 15经典印花迷你托特包手提斜跨",
+  "price": 940,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "美国",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 668,
+ "fields": {
+  "pid": "C280",
+  "name": "COACH中古老花法棍豌豆包全皮法棍兔毛",
+  "price": 699,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "法棍包",
+  "location": "英国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 669,
+ "fields": {
+  "pid": "C282",
+  "name": "COACH/蔻驰奥莱女士经典标志老花简约型迷你证件包卡包",
+  "price": 450,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "卡包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 670,
+ "fields": {
+  "pid": "C283",
+  "name": "COACH/蔻驰女士菱格纹绗缝JADE拉绳包单肩包手提包高级感",
+  "price": 2950,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 671,
+ "fields": {
+  "pid": "C284",
+  "name": "COACH/蔻驰奥莱女士老花EMEILIA单肩包腋下包高级复古",
+  "price": 1600,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 672,
+ "fields": {
+  "pid": "C286",
+  "name": "COACH蔻驰墨镜时尚板材椭圆窄框太阳镜女 8444D",
+  "price": 492,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "其他配饰",
+  "sub_category": "墨镜",
+  "location": "湖北",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 673,
+ "fields": {
+  "pid": "C287",
+  "name": "COACH蔻驰真皮男士经典商务休闲通勤单肩斜跨包黑色大容量荔枝纹",
+  "price": 1391,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 674,
+ "fields": {
+  "pid": "C289",
+  "name": "保税仓发货 现货COACH蔻驰 ROWAN18小号波士顿包香布雷丹宁牛仔",
+  "price": 1183,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "广东",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 675,
+ "fields": {
+  "pid": "C296",
+  "name": "大美玲加拿大直邮COACH蔻驰奥莱LARA单肩斜挎贝壳手提牛皮包",
+  "price": 799,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "贝壳包",
+  "location": "加拿大",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 676,
+ "fields": {
+  "pid": "C297",
+  "name": "COACH蔻驰 JADE 14 拉绳磁扣小福袋 斜挎包 迷你水桶",
+  "price": 1598,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 677,
+ "fields": {
+  "pid": "C298",
+  "name": "美国代购COACH蔻驰奥莱经典英伦风中长款双排扣女士风衣外套通勤",
+  "price": 1599,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "服饰",
+  "sub_category": "外套夹克",
+  "location": "美国",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 678,
+ "fields": {
+  "pid": "C300",
+  "name": "大美玲加拿大直邮 COACH蔻驰奥莱BRIDGET全皮单肩腋下包",
+  "price": 1599,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "加拿大",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 679,
+ "fields": {
+  "pid": "C301",
+  "name": "美国购 蔻驰COACH MAGGIE 24单肩包经典托特女包",
+  "price": 1300,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "德国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 680,
+ "fields": {
+  "pid": "C302",
+  "name": "美国直购 现货 COACH蔻驰FIONA 24小号托特包TOTE单肩腋下包CBT18",
+  "price": 1158,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "湖南",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 681,
+ "fields": {
+  "pid": "C303",
+  "name": "COACH 蔻驰 同名男士系列香水 EDT",
+  "price": 178,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "香水",
+  "sub_category": "男士香水",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 682,
+ "fields": {
+  "pid": "C304",
+  "name": "COACH蔻驰女包双肩包背包大容量COURT女士包包",
+  "price": 1007,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "双肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 683,
+ "fields": {
+  "pid": "C305",
+  "name": "蔻驰皮带适用于男士休闲真皮双面老花腰带提货卷",
+  "price": 238,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "腰带",
+  "sub_category": "男士腰带",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 684,
+ "fields": {
+  "pid": "C311",
+  "name": "毛毛虫美国直购COACH/蔻驰镶钻三眼皮带女手表BOYFRIEND系列现货",
+  "price": 850,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "手表",
+  "sub_category": "手表-其他",
+  "location": "广东",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 685,
+ "fields": {
+  "pid": "C312",
+  "name": "COACH蔻驰机器人托特包黑荔枝纹皮革大通勤购物 日本中古直邮98新",
+  "price": 889,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "日本",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 686,
+ "fields": {
+  "pid": "C314",
+  "name": "COACH/蔻驰女士SOFT TABBY 26号单肩包斜挎包手提包",
+  "price": 4250,
+  "sales": 0,
+  "price_band": "3000+",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 687,
+ "fields": {
+  "pid": "C315",
+  "name": "COACHF58312-IMDQC蔻驰波士顿女包美国代购直邮小票验货",
+  "price": 880,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 688,
+ "fields": {
+  "pid": "C316",
+  "name": "国内现货 COACH ROWAN 蔻驰波士顿桶包枕头包女单肩包手提斜挎包",
+  "price": 978,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "北京",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 689,
+ "fields": {
+  "pid": "C317",
+  "name": "COACH蔻驰女包HADLEY哈德利水桶包单肩包",
+  "price": 1299,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "水桶包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 690,
+ "fields": {
+  "pid": "C318",
+  "name": "代购COACH蔻驰女士帆布鞋轻便舒适透气耐磨日常穿搭低帮运动鞋",
+  "price": 909,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "鞋靴",
+  "sub_category": "运动鞋",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 691,
+ "fields": {
+  "pid": "C319",
+  "name": "美国购 COACH 蔻驰HARPER小马车双肩包背包",
+  "price": 1513,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "双肩包",
+  "location": "河南",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 692,
+ "fields": {
+  "pid": "C321",
+  "name": "蔻驰（COACH）CV976 SVPWH",
+  "price": 1880,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "未分类",
+  "sub_category": "未分类",
+  "location": "广东",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 693,
+ "fields": {
+  "pid": "C323",
+  "name": "保税仓发货 现货 COACH蔻驰 LAUREL 31流浪包单肩斜挎包CEY95",
+  "price": 1659,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "流浪包",
+  "location": "广东",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 694,
+ "fields": {
+  "pid": "C326",
+  "name": "美国直购 现货 COACH ROWAN系列中号小号迷你 MINI 波士顿 斜挎包",
+  "price": 1168,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "波士顿包",
+  "location": "湖南",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 695,
+ "fields": {
+  "pid": "C329",
+  "name": "COACH/蔻驰 CITY15 TOTE 女士单肩斜挎手提经典印花托特包 CW032",
+  "price": 1383,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "浙江",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 696,
+ "fields": {
+  "pid": "C331",
+  "name": "COACH/蔻驰奥莱男士老花迷你便携纤巧型证件包卡包零钱包",
+  "price": 350,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 697,
+ "fields": {
+  "pid": "C336",
+  "name": "COACH/蔻驰女包经典字母单肩斜挎手提托特包 黑醋栗色CCD94B4YDX",
+  "price": 1363,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "福建",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 698,
+ "fields": {
+  "pid": "C339",
+  "name": "国现 COACH蔻驰布鲁克林女士单肩包 BROOKLYN28复古牛皮腋下托特",
+  "price": 1299,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "托特包",
+  "location": "加拿大",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 699,
+ "fields": {
+  "pid": "C340",
+  "name": "布粒COACH蔻驰奥莱 TERI单肩斜跨手提腋下包加拿大代购直邮",
+  "price": 999,
+  "sales": 0,
+  "price_band": "500-1000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "加拿大",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 700,
+ "fields": {
+  "pid": "C343",
+  "name": "COACH/蔻驰奥莱女士老花ELISE 28号单肩包高级复古通勤",
+  "price": 2200,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "单肩包",
+  "location": "江苏",
+  "channel": "奥莱店",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 701,
+ "fields": {
+  "pid": "C347",
+  "name": "海外代购COACH/蔻驰女士手表欧美腕表精准计时日常防水不锈钢",
+  "price": 2676,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "手表",
+  "sub_category": "女士手表",
+  "location": "美国",
+  "channel": "海外代购",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 702,
+ "fields": {
+  "pid": "C349",
+  "name": "美国COACH OUTLET手袋包包钱包挎包背包官网直邮代购服务",
+  "price": 50,
+  "sales": 0,
+  "price_band": "0-500",
+  "category": "钱包卡包",
+  "sub_category": "钱包",
+  "location": "美国",
+  "channel": "官方奥莱",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 703,
+ "fields": {
+  "pid": "C350",
+  "name": "自营COACH/蔻驰女士 腋下包手提包单肩包斜挎包",
+  "price": 1503,
+  "sales": 0,
+  "price_band": "1000-2000",
+  "category": "包袋",
+  "sub_category": "腋下包",
+  "location": "浙江",
+  "channel": "平台自营",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.product",
+ "pk": 704,
+ "fields": {
+  "pid": "C351",
+  "name": "COACH/蔻驰女士复古TWIN TURNLOCK WAVERLY手袋斜挎包",
+  "price": 2650,
+  "sales": 0,
+  "price_band": "2000-3000",
+  "category": "包袋",
+  "sub_category": "斜挎包",
+  "location": "江苏",
+  "channel": "未知",
+  "platform": "淘宝",
+  "crawl_date": "2026-09-22"
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 97,
+ "fields": {
+  "target": "整体",
+  "month": "2024-10-01",
+  "sales": 10061.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 98,
+ "fields": {
+  "target": "整体",
+  "month": "2024-11-01",
+  "sales": 25472.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 99,
+ "fields": {
+  "target": "整体",
+  "month": "2024-12-01",
+  "sales": 13166.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 100,
+ "fields": {
+  "target": "整体",
+  "month": "2025-01-01",
+  "sales": 9000.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 101,
+ "fields": {
+  "target": "整体",
+  "month": "2025-02-01",
+  "sales": 5239.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 102,
+ "fields": {
+  "target": "整体",
+  "month": "2025-03-01",
+  "sales": 8176.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 103,
+ "fields": {
+  "target": "整体",
+  "month": "2025-04-01",
+  "sales": 8543.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 104,
+ "fields": {
+  "target": "整体",
+  "month": "2025-05-01",
+  "sales": 10574.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 105,
+ "fields": {
+  "target": "整体",
+  "month": "2025-06-01",
+  "sales": 14806.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 106,
+ "fields": {
+  "target": "整体",
+  "month": "2025-07-01",
+  "sales": 7845.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 107,
+ "fields": {
+  "target": "整体",
+  "month": "2025-08-01",
+  "sales": 8282.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 108,
+ "fields": {
+  "target": "整体",
+  "month": "2025-09-01",
+  "sales": 9672.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 109,
+ "fields": {
+  "target": "整体",
+  "month": "2025-10-01",
+  "sales": 11032.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 110,
+ "fields": {
+  "target": "整体",
+  "month": "2025-11-01",
+  "sales": 29088.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 111,
+ "fields": {
+  "target": "整体",
+  "month": "2025-12-01",
+  "sales": 14114.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 112,
+ "fields": {
+  "target": "整体",
+  "month": "2026-01-01",
+  "sales": 9601.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 113,
+ "fields": {
+  "target": "整体",
+  "month": "2026-02-01",
+  "sales": 6025.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 114,
+ "fields": {
+  "target": "整体",
+  "month": "2026-03-01",
+  "sales": 8421.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 115,
+ "fields": {
+  "target": "整体",
+  "month": "2026-04-01",
+  "sales": 9513.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 116,
+ "fields": {
+  "target": "整体",
+  "month": "2026-05-01",
+  "sales": 11572.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 117,
+ "fields": {
+  "target": "整体",
+  "month": "2026-06-01",
+  "sales": 17254.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 118,
+ "fields": {
+  "target": "整体",
+  "month": "2026-07-01",
+  "sales": 8623.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 119,
+ "fields": {
+  "target": "整体",
+  "month": "2026-08-01",
+  "sales": 9619.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 120,
+ "fields": {
+  "target": "整体",
+  "month": "2026-09-01",
+  "sales": 10687.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 121,
+ "fields": {
+  "target": "包袋",
+  "month": "2024-10-01",
+  "sales": 6741.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 122,
+ "fields": {
+  "target": "包袋",
+  "month": "2024-11-01",
+  "sales": 16726.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 123,
+ "fields": {
+  "target": "包袋",
+  "month": "2024-12-01",
+  "sales": 8550.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 124,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-01-01",
+  "sales": 5718.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 125,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-02-01",
+  "sales": 3527.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 126,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-03-01",
+  "sales": 5353.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 127,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-04-01",
+  "sales": 5715.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 128,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-05-01",
+  "sales": 7183.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 129,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-06-01",
+  "sales": 10079.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 130,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-07-01",
+  "sales": 5221.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 131,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-08-01",
+  "sales": 5591.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 132,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-09-01",
+  "sales": 6109.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 133,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-10-01",
+  "sales": 7166.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 134,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-11-01",
+  "sales": 19161.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 135,
+ "fields": {
+  "target": "包袋",
+  "month": "2025-12-01",
+  "sales": 9390.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 136,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-01-01",
+  "sales": 6736.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 137,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-02-01",
+  "sales": 4041.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 138,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-03-01",
+  "sales": 6065.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 139,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-04-01",
+  "sales": 6377.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 140,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-05-01",
+  "sales": 7637.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 141,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-06-01",
+  "sales": 11750.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 142,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-07-01",
+  "sales": 6051.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 143,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-08-01",
+  "sales": 6220.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 144,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-09-01",
+  "sales": 6896.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 145,
+ "fields": {
+  "target": "香水",
+  "month": "2024-10-01",
+  "sales": 2474.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 146,
+ "fields": {
+  "target": "香水",
+  "month": "2024-11-01",
+  "sales": 9967.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 147,
+ "fields": {
+  "target": "香水",
+  "month": "2024-12-01",
+  "sales": 4124.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 148,
+ "fields": {
+  "target": "香水",
+  "month": "2025-01-01",
+  "sales": 2108.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 149,
+ "fields": {
+  "target": "香水",
+  "month": "2025-02-01",
+  "sales": 1110.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 150,
+ "fields": {
+  "target": "香水",
+  "month": "2025-03-01",
+  "sales": 1788.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 151,
+ "fields": {
+  "target": "香水",
+  "month": "2025-04-01",
+  "sales": 2006.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 152,
+ "fields": {
+  "target": "香水",
+  "month": "2025-05-01",
+  "sales": 3116.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 153,
+ "fields": {
+  "target": "香水",
+  "month": "2025-06-01",
+  "sales": 4305.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 154,
+ "fields": {
+  "target": "香水",
+  "month": "2025-07-01",
+  "sales": 1681.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 155,
+ "fields": {
+  "target": "香水",
+  "month": "2025-08-01",
+  "sales": 2396.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 156,
+ "fields": {
+  "target": "香水",
+  "month": "2025-09-01",
+  "sales": 2031.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 157,
+ "fields": {
+  "target": "香水",
+  "month": "2025-10-01",
+  "sales": 2781.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 158,
+ "fields": {
+  "target": "香水",
+  "month": "2025-11-01",
+  "sales": 11524.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 159,
+ "fields": {
+  "target": "香水",
+  "month": "2025-12-01",
+  "sales": 4781.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 160,
+ "fields": {
+  "target": "香水",
+  "month": "2026-01-01",
+  "sales": 2522.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 161,
+ "fields": {
+  "target": "香水",
+  "month": "2026-02-01",
+  "sales": 1235.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 162,
+ "fields": {
+  "target": "香水",
+  "month": "2026-03-01",
+  "sales": 1995.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 163,
+ "fields": {
+  "target": "香水",
+  "month": "2026-04-01",
+  "sales": 2232.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 164,
+ "fields": {
+  "target": "香水",
+  "month": "2026-05-01",
+  "sales": 3376.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 165,
+ "fields": {
+  "target": "香水",
+  "month": "2026-06-01",
+  "sales": 4678.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 166,
+ "fields": {
+  "target": "香水",
+  "month": "2026-07-01",
+  "sales": 1872.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 167,
+ "fields": {
+  "target": "香水",
+  "month": "2026-08-01",
+  "sales": 2713.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 168,
+ "fields": {
+  "target": "香水",
+  "month": "2026-09-01",
+  "sales": 2341.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 169,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2024-10-01",
+  "sales": 418.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 170,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2024-11-01",
+  "sales": 1034.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 171,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2024-12-01",
+  "sales": 510.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 172,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-01-01",
+  "sales": 359.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 173,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-02-01",
+  "sales": 220.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 174,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-03-01",
+  "sales": 329.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 175,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-04-01",
+  "sales": 347.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 176,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-05-01",
+  "sales": 436.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 177,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-06-01",
+  "sales": 638.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 178,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-07-01",
+  "sales": 323.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 179,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-08-01",
+  "sales": 354.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 180,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-09-01",
+  "sales": 376.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 181,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-10-01",
+  "sales": 443.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 182,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-11-01",
+  "sales": 1157.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 183,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2025-12-01",
+  "sales": 609.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 184,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-01-01",
+  "sales": 413.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 185,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-02-01",
+  "sales": 246.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 186,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-03-01",
+  "sales": 368.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 187,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-04-01",
+  "sales": 380.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 188,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-05-01",
+  "sales": 491.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 189,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-06-01",
+  "sales": 710.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 190,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-07-01",
+  "sales": 365.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 191,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-08-01",
+  "sales": 385.0
+ }
+},
+{
+ "model": "dashboard.monthlysales",
+ "pk": 192,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-09-01",
+  "sales": 442.0
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 1,
+ "fields": {
+  "target": "整体",
+  "month": "2026-10-01",
+  "predicted_sales": 11128.3,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 2,
+ "fields": {
+  "target": "整体",
+  "month": "2026-11-01",
+  "predicted_sales": 31210.7,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 3,
+ "fields": {
+  "target": "整体",
+  "month": "2026-12-01",
+  "predicted_sales": 17214.4,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 4,
+ "fields": {
+  "target": "整体",
+  "month": "2027-01-01",
+  "predicted_sales": 9161.5,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 5,
+ "fields": {
+  "target": "整体",
+  "month": "2027-02-01",
+  "predicted_sales": 6309.9,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 6,
+ "fields": {
+  "target": "整体",
+  "month": "2027-03-01",
+  "predicted_sales": 8575.1,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 7,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-10-01",
+  "predicted_sales": 6288.8,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 8,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-11-01",
+  "predicted_sales": 18325.7,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 9,
+ "fields": {
+  "target": "包袋",
+  "month": "2026-12-01",
+  "predicted_sales": 12614.6,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 10,
+ "fields": {
+  "target": "包袋",
+  "month": "2027-01-01",
+  "predicted_sales": 6248.3,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 11,
+ "fields": {
+  "target": "包袋",
+  "month": "2027-02-01",
+  "predicted_sales": 4105.2,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 12,
+ "fields": {
+  "target": "包袋",
+  "month": "2027-03-01",
+  "predicted_sales": 5426.8,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 13,
+ "fields": {
+  "target": "香水",
+  "month": "2026-10-01",
+  "predicted_sales": 3964.2,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 14,
+ "fields": {
+  "target": "香水",
+  "month": "2026-11-01",
+  "predicted_sales": 8185.0,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 15,
+ "fields": {
+  "target": "香水",
+  "month": "2026-12-01",
+  "predicted_sales": 4506.9,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 16,
+ "fields": {
+  "target": "香水",
+  "month": "2027-01-01",
+  "predicted_sales": 2634.7,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 17,
+ "fields": {
+  "target": "香水",
+  "month": "2027-02-01",
+  "predicted_sales": 2003.0,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 18,
+ "fields": {
+  "target": "香水",
+  "month": "2027-03-01",
+  "predicted_sales": 2029.0,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 19,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-10-01",
+  "predicted_sales": 354.3,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 20,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-11-01",
+  "predicted_sales": 1114.4,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 21,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2026-12-01",
+  "predicted_sales": 769.5,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 22,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2027-01-01",
+  "predicted_sales": 382.3,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 23,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2027-02-01",
+  "predicted_sales": 252.7,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.salesforecast",
+ "pk": 24,
+ "fields": {
+  "target": "其他配饰",
+  "month": "2027-03-01",
+  "predicted_sales": 332.8,
+  "model_name": "LSTM",
+  "created_at": "2026-10-11T13:30:33.679"
+ }
+},
+{
+ "model": "dashboard.modelmetric",
+ "pk": 1,
+ "fields": {
+  "target": "整体",
+  "mae": 3107.8,
+  "mape": 22.67,
+  "rmse": 4994.0,
+  "sample_count": 48,
+  "epochs": 150,
+  "updated_at": "2026-10-11T13:30:32.391"
+ }
+},
+{
+ "model": "dashboard.modelmetric",
+ "pk": 2,
+ "fields": {
+  "target": "包袋",
+  "mae": 2151.4,
+  "mape": 22.67,
+  "rmse": 3709.0,
+  "sample_count": 48,
+  "epochs": 150,
+  "updated_at": "2026-10-11T13:30:32.391"
+ }
+},
+{
+ "model": "dashboard.modelmetric",
+ "pk": 3,
+ "fields": {
+  "target": "香水",
+  "mae": 842.1,
+  "mape": 25.35,
+  "rmse": 1406.2,
+  "sample_count": 48,
+  "epochs": 150,
+  "updated_at": "2026-10-11T13:30:32.391"
+ }
+},
+{
+ "model": "dashboard.modelmetric",
+ "pk": 4,
+ "fields": {
+  "target": "其他配饰",
+  "mae": 175.1,
+  "mape": 29.24,
+  "rmse": 311.1,
+  "sample_count": 48,
+  "epochs": 150,
+  "updated_at": "2026-10-11T13:30:32.391"
+ }
+}
+]

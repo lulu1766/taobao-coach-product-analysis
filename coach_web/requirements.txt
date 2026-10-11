@@ -1,0 +1,3 @@
+# 运行可视化系统所需的最小依赖（无需 MySQL / TensorFlow，数据由 fixture 提供）
+Django>=4.2,<6.0
+jieba>=0.42.1
